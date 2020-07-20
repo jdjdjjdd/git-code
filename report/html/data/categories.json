@@ -1,0 +1,1276 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'user_id'",
+      "children" : [ {
+        "name" : "test_01[data0]",
+        "uid" : "a73ecebbfb4e6911",
+        "parentUid" : "ce5a43ad2cef853f2e05df20ac188690",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631305943,
+          "stop" : 1594631305943,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['case001', '录入名单', 'http://djy-web-fat3.woda.ink/api/v1/DJY_Name_Manager/AddNameForOpenAPI', None, True, {'InterviewDate': '2020-05-19', 'Name': '安暗声', 'Gender': 1, 'IDCardNum': '522627197506252482', 'Mobile': '18047805523', 'Nation': '汉', 'IDCardExprDate': '2030-02-11', 'Addr': '测试地址', 'SpEntID': 3889, 'InterviewStatus': 0, 'Remark': '测试', 'FromSpID': 23054, 'FromSpName': '殷海涛供应商', 'TargetSpId': 22699, 'SpName': '奇迹劳务', 'InputType': 2}, {'Code': 0, 'Data': {'Guid': 0, 'NameListId': 1689420, 'RcrtTyp': 2, 'Uuid': 0}, 'Desc': '成功'}, '']" ]
+      }, {
+        "name" : "test_01[data1]",
+        "uid" : "8a04a6a0c1faab7b",
+        "parentUid" : "ce5a43ad2cef853f2e05df20ac188690",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631307018,
+          "stop" : 1594631307018,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['case002', '手机号码为空，获取验证码', 'http://djy-web-fat3.woda.ink/api/v1/VCodeManager/GetVCode', None, True, {'SPhone': ''}, {'Code': 300, 'Data': '', 'Desc': '手机号码无效'}, '是']" ]
+      }, {
+        "name" : "test_01[data2]",
+        "uid" : "f9024040e01c33fe",
+        "parentUid" : "ce5a43ad2cef853f2e05df20ac188690",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631307031,
+          "stop" : 1594631307031,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['case003', '手机号码为空，获取验证码', 'http://djy-web-fat3.woda.ink/api/v1/VCodeManager/GetVCode', None, True, {'SPhone': '112@多少'}, {'Code': 300, 'Data': '', 'Desc': '手机号码无效'}, '是']" ]
+      }, {
+        "name" : "test_01[data3]",
+        "uid" : "46c0281744369c51",
+        "parentUid" : "ce5a43ad2cef853f2e05df20ac188690",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631307044,
+          "stop" : 1594631307044,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['case004', '手机号码为空，登录', 'http://djy-web-fat3.woda.ink/api/v1/DJY_Login/MiniLogin', None, True, {'mobile': '', 'vcode': '0846', 'tenant_type': 2}, {'Code': 50001, 'Desc': '输入参数错误', 'Data': None}, '是']" ]
+      }, {
+        "name" : "test_01[data4]",
+        "uid" : "e69263a8bdc55617",
+        "parentUid" : "ce5a43ad2cef853f2e05df20ac188690",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631307056,
+          "stop" : 1594631307056,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['case005', '验证码为空，登录', 'http://djy-web-fat3.woda.ink/api/v1/DJY_Login/MiniLogin', None, True, {'mobile': '18362378923', 'vcode': '', 'tenant_type': 2}, {'Code': 50001, 'Desc': '输入参数错误', 'Data': None}, '是']" ]
+      }, {
+        "name" : "test_01[data5]",
+        "uid" : "1a4ef8f5bf7e003c",
+        "parentUid" : "ce5a43ad2cef853f2e05df20ac188690",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631307068,
+          "stop" : 1594631307068,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['case006', '手机号码和验证码不匹配，登录', 'http://djy-web-fat3.woda.ink/api/v1/DJY_Login/MiniLogin', None, True, {'mobile': '18362378923', 'vcode': '0846', 'tenant_type': 2}, {'Code': 60003, 'Desc': '验证码不匹配', 'Data': None}, '是']" ]
+      } ],
+      "uid" : "ce5a43ad2cef853f2e05df20ac188690"
+    }, {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "会员已上传身份证，再次上传身份证",
+        "uid" : "6ec6e9dd5e968079",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631311383,
+          "stop" : 1594631315168,
+          "duration" : 3785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员上传银行卡",
+        "uid" : "60f4130ef6354fe5",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631315191,
+          "stop" : 1594631317713,
+          "duration" : 2522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "银行卡列表数据查看",
+        "uid" : "4eebb03651e08144",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631317745,
+          "stop" : 1594631321516,
+          "duration" : 3771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员身份证未审核通过上传工牌",
+        "uid" : "972c114bd2596f1f",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631321544,
+          "stop" : 1594631322424,
+          "duration" : 880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员身份证已审核通过上传工牌",
+        "uid" : "b16fbc32ddc33173",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631322451,
+          "stop" : 1594631323244,
+          "duration" : 793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已上传待审核状态的工牌再次上传工牌",
+        "uid" : "de82eeb1a827b7d6",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631323270,
+          "stop" : 1594631323858,
+          "duration" : 588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员工牌列表检查",
+        "uid" : "770e67b93b57616",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631323905,
+          "stop" : 1594631324698,
+          "duration" : 793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已上传审核通过的身份证，再次上传身份证",
+        "uid" : "1e161fc559a1ed8a",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631325222,
+          "stop" : 1594631325683,
+          "duration" : 461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证未审核状态银行卡信息记录检查",
+        "uid" : "8c2c705cb1425738",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631351142,
+          "stop" : 1594631351500,
+          "duration" : 358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核不通过状态银行卡信息记录检查",
+        "uid" : "c59d12fff150f0b9",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631351566,
+          "stop" : 1594631351876,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核通过状态，未审核状态的银行信息记录检查",
+        "uid" : "afc6cdd40f17955c",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631351972,
+          "stop" : 1594631352302,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核通过状态，审核通过银行卡信息记录检查",
+        "uid" : "bd3fcfad052197e0",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631352364,
+          "stop" : 1594631352680,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核通过状态，审核不通过银行卡信息记录检查",
+        "uid" : "1ace4ca9217b0b72",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631352739,
+          "stop" : 1594631353083,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "统计信息数据检查",
+        "uid" : "4cfd241fcb4aaae",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631353163,
+          "stop" : 1594631353310,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "银行卡信息列表查看未脱敏手机号、未脱敏身份证号码、未脱敏银行卡号",
+        "uid" : "6d315b1b414443bf",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631353368,
+          "stop" : 1594631353498,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "默认查询项查询",
+        "uid" : "64cf4847fd93c304",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631353579,
+          "stop" : 1594631353711,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证号码查询",
+        "uid" : "915405831052b96c",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631353774,
+          "stop" : 1594631353901,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "姓名查询",
+        "uid" : "fa6c5c3bdd0fd8df",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631353961,
+          "stop" : 1594631354107,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "手机号码查询",
+        "uid" : "c6356ff19f00b260",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631354184,
+          "stop" : 1594631354328,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "银行名称查询",
+        "uid" : "8b91be4f57146d03",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631354388,
+          "stop" : 1594631354561,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "银行卡号查询",
+        "uid" : "e7ca939847dd4fc8",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631354641,
+          "stop" : 1594631354878,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "410401a26eeb80b1",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631354936,
+          "stop" : 1594631355347,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "9ac7d8de48343932",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631355409,
+          "stop" : 1594631356217,
+          "duration" : 808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "46a5502262c31ae6",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631356303,
+          "stop" : 1594631357196,
+          "duration" : 893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "上传日期查询",
+        "uid" : "403edf1aaf5bccba",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631357270,
+          "stop" : 1594631357956,
+          "duration" : 686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2020-07-13'", "None" ]
+      }, {
+        "name" : "上传日期查询",
+        "uid" : "38ac2d8ed69eb17d",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631358023,
+          "stop" : 1594631358335,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "'2020-07-13'" ]
+      }, {
+        "name" : "上传日期查询",
+        "uid" : "add06d32c020a0ed",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631358416,
+          "stop" : 1594631358726,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2020-07-13'", "'2020-07-13'" ]
+      }, {
+        "name" : "组合查询",
+        "uid" : "41762ad27a458bd5",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631358789,
+          "stop" : 1594631358929,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "刷新待审核状态的银行卡",
+        "uid" : "112db0643bd90b76",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631359008,
+          "stop" : 1594631359375,
+          "duration" : 367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "待审核状态银行卡手动审核成功",
+        "uid" : "625e0365e72199c5",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631359458,
+          "stop" : 1594631359804,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "待审核状态银行卡手动审核不通过",
+        "uid" : "a5569846f5446d41",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631359868,
+          "stop" : 1594631360486,
+          "duration" : 618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已有审核通过银行卡再次上传新的银行卡审核通过",
+        "uid" : "356f681f189afcae",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631360570,
+          "stop" : 1594631360916,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员在其他ec下存在审核通过的银行卡，审核通过会员的银行卡",
+        "uid" : "91722b16f6cfe764",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631360982,
+          "stop" : 1594631361323,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已有审核通过的银行卡再次审核通过相同银行卡号的银行卡",
+        "uid" : "eb9b038914fe46a7",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631361447,
+          "stop" : 1594631361800,
+          "duration" : 353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改审核通过会员银行卡号",
+        "uid" : "b9a49bac55cea150",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631361984,
+          "stop" : 1594631362349,
+          "duration" : 365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "待审核状态身份证信息记录检查",
+        "uid" : "3a518b825b808052",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631362529,
+          "stop" : 1594631363009,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "审核通过状态身份证信息记录检查",
+        "uid" : "26cf1ceee0fe48ec",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631363081,
+          "stop" : 1594631363449,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "审核不通过状态身份证信息记录检查",
+        "uid" : "6968d30c1f86a6e2",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631363490,
+          "stop" : 1594631363841,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "统计信息数据检查",
+        "uid" : "aa58094ace037774",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631363880,
+          "stop" : 1594631364009,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证信息列表查看未脱敏手机号和未脱敏身份证号码",
+        "uid" : "b9d6111537e2a002",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631364045,
+          "stop" : 1594631364185,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "默认查询项查询",
+        "uid" : "bde9a0964dc1d2b3",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631364244,
+          "stop" : 1594631364381,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证号码查询",
+        "uid" : "40eef6243d8296fa",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631364419,
+          "stop" : 1594631364572,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "姓名查询",
+        "uid" : "c57d706ebdc5f47a",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631364611,
+          "stop" : 1594631364752,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "手机号码查询",
+        "uid" : "1a68dc6a8894b9cb",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631364792,
+          "stop" : 1594631364917,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "e3a6e3c1c6a22e58",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631364958,
+          "stop" : 1594631365103,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "a9a92eb1a251eef5",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631365164,
+          "stop" : 1594631365303,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "ff1be187476801da",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631365341,
+          "stop" : 1594631365562,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "上传日期查询",
+        "uid" : "f7ca06ceba517433",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631365601,
+          "stop" : 1594631365728,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2020-07-13'", "None" ]
+      }, {
+        "name" : "上传日期查询",
+        "uid" : "28cdca75b22e5801",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631365768,
+          "stop" : 1594631365894,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "'2020-07-13'" ]
+      }, {
+        "name" : "上传日期查询",
+        "uid" : "80e71afe0d30f162",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631365955,
+          "stop" : 1594631366080,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2020-07-13'", "'2020-07-13'" ]
+      }, {
+        "name" : "组合查询",
+        "uid" : "59119c85a8f8f413",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631366123,
+          "stop" : 1594631366269,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "刷新待审核状态的身份证",
+        "uid" : "2c21f59459955314",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631366307,
+          "stop" : 1594631366627,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "手动审核身份证成功",
+        "uid" : "e42b1f45ee0a8293",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631366671,
+          "stop" : 1594631367007,
+          "duration" : 336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "待审核状态身份证手动审核不通过",
+        "uid" : "a86260201d65ec8d",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631367064,
+          "stop" : 1594631367408,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "填写已存在的身份证号码审核通过",
+        "uid" : "3f357e02a873af67",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631367459,
+          "stop" : 1594631367788,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证最后一位为小写“x”，身份证审核通过",
+        "uid" : "75ea97b3b4f8ad2c",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631367839,
+          "stop" : 1594631368165,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已有结算名单，审核身份证成功",
+        "uid" : "23d5d07fde3eae19",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631368224,
+          "stop" : 1594631368547,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已有多条结算名单，审核身份证成功",
+        "uid" : "75c0e70124651bb8",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631368615,
+          "stop" : 1594631368950,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已有打卡记录，审核身份证成功",
+        "uid" : "f51f174ac1279328",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631368994,
+          "stop" : 1594631369336,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已有小程序补卡记录，审核身份证成功",
+        "uid" : "9ee1c1dfa357cb7d",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631369379,
+          "stop" : 1594631369717,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员已上传工牌，审核身份证成功",
+        "uid" : "5a9b338a7b4af00d",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631369763,
+          "stop" : 1594631370089,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "检查扫描记录",
+        "uid" : "e4771471519952c9",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594631383051,
+          "stop" : 1594631383218,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证未审核状态工牌信息记录检查",
+        "uid" : "2e71c30efaf72e3f",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632557111,
+          "stop" : 1594632557428,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核不通过状态工牌信息记录检查",
+        "uid" : "545eda3bde9a4ae5",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632557520,
+          "stop" : 1594632557853,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核通过状态，未审核状态的工牌信息检查",
+        "uid" : "65670ea774fc4bd1",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632557911,
+          "stop" : 1594632558246,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核通过状态，审核通过状态的工牌信息检查",
+        "uid" : "3bc80c83c1305f65",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632558338,
+          "stop" : 1594632558670,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证审核通过状态，审核不通过状态的工牌信息检查",
+        "uid" : "85a66e0d26069880",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632558759,
+          "stop" : 1594632559118,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员有多条结算名单，查询工牌信息接口返回数据检查",
+        "uid" : "866a0b86fdc936c6",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632559181,
+          "stop" : 1594632559527,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "统计信息数据检查",
+        "uid" : "1ff83b054c8177c6",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632559587,
+          "stop" : 1594632559725,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "工牌信息列表查看未脱敏手机号、未脱敏身份证号码",
+        "uid" : "e8010a757e52c075",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632559799,
+          "stop" : 1594632559933,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "默认查询项查询",
+        "uid" : "44e45474c91e80b3",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632560013,
+          "stop" : 1594632560148,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "身份证号码查询",
+        "uid" : "fcf798583d949f45",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632560229,
+          "stop" : 1594632560382,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "姓名查询",
+        "uid" : "61c5fa88f40e0fc6",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632560441,
+          "stop" : 1594632560598,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "手机号码查询",
+        "uid" : "4b53227f610871e0",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632560655,
+          "stop" : 1594632560798,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "标准企业查询",
+        "uid" : "11377e6f24194425",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632560875,
+          "stop" : 1594632561024,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "工牌号查询",
+        "uid" : "494f45c01720dad3",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632561082,
+          "stop" : 1594632561236,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "bf11c720274c244c",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632561295,
+          "stop" : 1594632561431,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "2ec494818dc81310",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632561510,
+          "stop" : 1594632561636,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      }, {
+        "name" : "审核状态查询",
+        "uid" : "39da65fe2481632f",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632561705,
+          "stop" : 1594632561832,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "上传时期查询",
+        "uid" : "e9c90a9619380a1c",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632561904,
+          "stop" : 1594632562070,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2020-07-13'", "None" ]
+      }, {
+        "name" : "上传时期查询",
+        "uid" : "f627aa038a488db0",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632562150,
+          "stop" : 1594632562276,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "'2020-07-13'" ]
+      }, {
+        "name" : "上传时期查询",
+        "uid" : "c7ee706e689a1a7f",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632562342,
+          "stop" : 1594632562467,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2020-07-13'", "'2020-07-13'" ]
+      }, {
+        "name" : "组合查询",
+        "uid" : "9e777c5b9c2122c3",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632562532,
+          "stop" : 1594632562768,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "会员无结算名单审核工牌",
+        "uid" : "a746e1062d41a08b",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594632562843,
+          "stop" : 1594632563174,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> TypeError(\"'NoneType' object is not subscriptable\")\n\n2 Failed Assumptions:\n\ntestcases\\service_testing\\MiniPro\\test_login.py:139: AssumptionFailure\n>>\tpytest.assume(response['Code'] == 0)\nAssertionError: assert False\n\ntestcases\\service_testing\\MiniPro\\test_login.py:140: AssumptionFailure\n>>\tpytest.assume(response['Desc'] == '成功')\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "输入正确的验证码和手机号码,tenant_type为1登录",
+        "uid" : "8d29aad905b23491",
+        "parentUid" : "08d509dd84c6e292e8a67661212408a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594631308623,
+          "stop" : 1594631309337,
+          "duration" : 714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08d509dd84c6e292e8a67661212408a2"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_name_list.py:954: AssumptionFailure\n>>\tpytest.assume(res['Data'] == {\"RecordList\": []})\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "名单和订单企业不一致",
+        "uid" : "9b83fe0f42ca147a",
+        "parentUid" : "f9be11d664152968e339c483646e52f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594631385639,
+          "stop" : 1594631386601,
+          "duration" : 962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9be11d664152968e339c483646e52f4"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_name_list.py:1630: AssumptionFailure\n>>\tpytest.assume(db_res[0][0] == res1['Data']['RecordCount'])\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "使用订单编号查询",
+        "uid" : "e13b8736946256f6",
+        "parentUid" : "7d02c4415c8085d15022e613d9b16ce7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594631426165,
+          "stop" : 1594631426582,
+          "duration" : 417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d02c4415c8085d15022e613d9b16ce7"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> TypeError(\"'NoneType' object is not subscriptable\")\n\n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_settle_namelist.py:256: AssumptionFailure\n>>\tpytest.assume(res['Data']['RecordCount'] == 1)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "生成预支名单3",
+        "uid" : "9085d235858b3965",
+        "parentUid" : "23728ac573d8a1f442ce3612b7cc1fe9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594631537365,
+          "stop" : 1594631569534,
+          "duration" : 32169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23728ac573d8a1f442ce3612b7cc1fe9"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> TypeError(\"'NoneType' object is not subscriptable\")\n\n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_settle_namelist.py:413: AssumptionFailure\n>>\tpytest.assume(res['Data']['RecordCount'] == 1)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "生成预支名单5",
+        "uid" : "21f49f87d79530eb",
+        "parentUid" : "8e8ae304169a793f7276857317089ed3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594631602500,
+          "stop" : 1594631635068,
+          "duration" : 32568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e8ae304169a793f7276857317089ed3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

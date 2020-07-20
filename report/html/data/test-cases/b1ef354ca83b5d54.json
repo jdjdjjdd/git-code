@@ -1,0 +1,307 @@
+{
+  "uid" : "b1ef354ca83b5d54",
+  "name" : "使用身份证号查询",
+  "fullName" : "testcases.service_testing.PQ.test_name_list.TestNameList#test_namelist_0035",
+  "historyId" : "b1229d326787a5fcf30a2846cca7a678",
+  "time" : {
+    "start" : 1593589111516,
+    "stop" : 1593589111873,
+    "duration" : 357
+  },
+  "description" : "使用身份证号查询",
+  "descriptionHtml" : "<p>使用身份证号查询</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "random_agent",
+    "time" : {
+      "start" : 1593589110480,
+      "stop" : 1593589110823,
+      "duration" : 343
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "borrow_randow_fuction",
+    "time" : {
+      "start" : 1593589110375,
+      "stop" : 1593589110480,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "add_name_interview",
+    "time" : {
+      "start" : 1593589110824,
+      "stop" : 1593589111516,
+      "duration" : 692
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1593589060353,
+      "stop" : 1593589060693,
+      "duration" : 340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1593589060693,
+      "stop" : 1593589060693,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1593589057503,
+      "stop" : 1593589060353,
+      "duration" : 2850
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1593589110370,
+      "stop" : 1593589110374,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "使用身份证号查询",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step1:使用存在的身份证号码查询",
+      "time" : {
+        "start" : 1593589111517,
+        "stop" : 1593589111602,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果:查询到对应名单",
+      "time" : {
+        "start" : 1593589111602,
+        "stop" : 1593589111660,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step2：使用不存在的身份证号码查询",
+      "time" : {
+        "start" : 1593589111660,
+        "stop" : 1593589111719,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：查询不到名单",
+      "time" : {
+        "start" : 1593589111719,
+        "stop" : 1593589111729,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "使用身份证号码部分字段查询",
+      "time" : {
+        "start" : 1593589111729,
+        "stop" : 1593589111815,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果:查询到对应名单",
+      "time" : {
+        "start" : 1593589111815,
+        "stop" : 1593589111873,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4ea4c78ab2a59015",
+      "name" : "log",
+      "source" : "4ea4c78ab2a59015.txt",
+      "type" : "text/plain",
+      "size" : 2635
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1593589295388,
+      "stop" : 1593589295388,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1593589111876,
+      "stop" : 1593589111876,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "查询"
+  }, {
+    "name" : "feature",
+    "value" : "实接记录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_name_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "19280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_name_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1ef354ca83b5d54.json",
+  "parameterValues" : [ ]
+}

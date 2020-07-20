@@ -1,0 +1,16 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/VCodeManager/GetVCode HTTP/1.1" 200 40
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Login/MiniLogin HTTP/1.1" 200 498
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Export/ZXX_GetNameList HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Export/ZXX_GetNameList HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Base_Manager/GetCoopList HTTP/1.1" 200 615
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Base_Manager/UpdateCoop HTTP/1.1" 200 35
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Export/ZXX_GetNameList HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Base_Manager/UpdateCoop HTTP/1.1" 200 35

@@ -1,0 +1,305 @@
+{
+  "uid" : "61a8d52a9f8cade2",
+  "name" : "手动录入-不同面试状态录入：面试状态为2",
+  "fullName" : "testcases.service_testing.PQ.test_name_list.TestNameList#test_namelist_0004",
+  "historyId" : "e883b0e8d9a893dc59a5c09f3e426fa1",
+  "time" : {
+    "start" : 1594631372741,
+    "stop" : 1594631373084,
+    "duration" : 343
+  },
+  "description" : "手动录入-不同面试状态录入",
+  "descriptionHtml" : "<p>手动录入-不同面试状态录入</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1594631305945,
+      "stop" : 1594631306348,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1594631370228,
+      "stop" : 1594631370228,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1594631372620,
+      "stop" : 1594631372626,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "random_agent",
+    "time" : {
+      "start" : 1594631372687,
+      "stop" : 1594631372740,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "borrow_randow_fuction",
+    "time" : {
+      "start" : 1594631372626,
+      "stop" : 1594631372687,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594631370159,
+      "stop" : 1594631370228,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "手动录入-不同面试状态录入",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step1:录入面试状态为面试通过的名单，检查列表数据，检查数据库落表",
+      "time" : {
+        "start" : 1594631372741,
+        "stop" : 1594631372972,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果1：提示保存成功，接口返回数据正确",
+      "time" : {
+        "start" : 1594631372972,
+        "stop" : 1594631373041,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果2：列表生成名单记录面试状态为未处理",
+      "time" : {
+        "start" : 1594631373041,
+        "stop" : 1594631373051,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果3：name_list表intv_sts字段为2",
+      "time" : {
+        "start" : 1594631373052,
+        "stop" : 1594631373063,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果4：name_list_flow表intv_sts字段为2",
+      "time" : {
+        "start" : 1594631373063,
+        "stop" : 1594631373074,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果5：name_list_sync表intv_sts字段为2",
+      "time" : {
+        "start" : 1594631373074,
+        "stop" : 1594631373084,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d6d3612869ce60d1",
+      "name" : "log",
+      "source" : "d6d3612869ce60d1.txt",
+      "type" : "text/plain",
+      "size" : 1092
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1594631373086,
+      "stop" : 1594631373086,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594631470005,
+      "stop" : 1594631470005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "手工录入"
+  }, {
+    "name" : "feature",
+    "value" : "实接记录"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_name_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "26496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_name_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "InterviewStatus",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "e6a0fb8c402dada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593589065450,
+        "stop" : 1593589065883,
+        "duration" : 433
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61a8d52a9f8cade2.json",
+  "parameterValues" : [ "2" ]
+}

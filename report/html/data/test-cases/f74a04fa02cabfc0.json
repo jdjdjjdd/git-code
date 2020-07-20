@@ -1,0 +1,322 @@
+{
+  "uid" : "f74a04fa02cabfc0",
+  "name" : "手动录入-带所有选填项信息",
+  "fullName" : "testcases.service_testing.PQ.test_name_list.TestNameList#test_namelist_0003",
+  "historyId" : "6c0575ed64f3259568a2c02c9da989cb",
+  "time" : {
+    "start" : 1593589062312,
+    "stop" : 1593589063039,
+    "duration" : 727
+  },
+  "description" : "手动录入-带所有选填项信息",
+  "descriptionHtml" : "<p>手动录入-带所有选填项信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1593589060353,
+      "stop" : 1593589060693,
+      "duration" : 340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1593589060693,
+      "stop" : 1593589060693,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1593589057503,
+      "stop" : 1593589060353,
+      "duration" : 2850
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "random_agent",
+    "time" : {
+      "start" : 1593589061807,
+      "stop" : 1593589062194,
+      "duration" : 387
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1593589061803,
+      "stop" : 1593589061807,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "borrow_randow_fuction",
+    "time" : {
+      "start" : 1593589062194,
+      "stop" : 1593589062311,
+      "duration" : 117
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "手动录入-带所有选填项信息",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step1:填入姓名、身份证号、手机号码、证件有效期、户籍地址、民族、备注，选择工种、面试日期、来源，点击确定",
+      "time" : {
+        "start" : 1593589062313,
+        "stop" : 1593589062481,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：提示保存成功，接口返回数据正确",
+      "time" : {
+        "start" : 1593589062481,
+        "stop" : 1593589062543,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step2:检查列表数据",
+      "time" : {
+        "start" : 1593589062543,
+        "stop" : 1593589062633,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：列表生成一条新的名单记录，数据和刚才录入一致",
+      "time" : {
+        "start" : 1593589062633,
+        "stop" : 1593589062684,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step3:检查数据库落表",
+      "time" : {
+        "start" : 1593589062684,
+        "stop" : 1593589062785,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果1：name_list生成一条新的数据，与录入的数据一致",
+      "time" : {
+        "start" : 1593589062785,
+        "stop" : 1593589062888,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果2：name_list_flow生成一条新的数据，与录入的数据一致",
+      "time" : {
+        "start" : 1593589062888,
+        "stop" : 1593589062979,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果3：name_list_sync生成一条新的数据，与录入的数据一致",
+      "time" : {
+        "start" : 1593589062979,
+        "stop" : 1593589063039,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "23864e006efddbf0",
+      "name" : "log",
+      "source" : "23864e006efddbf0.txt",
+      "type" : "text/plain",
+      "size" : 1174
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1593589295388,
+      "stop" : 1593589295388,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1593589063042,
+      "stop" : 1593589063042,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "手工录入"
+  }, {
+    "name" : "feature",
+    "value" : "实接记录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_name_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "19280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_name_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f74a04fa02cabfc0.json",
+  "parameterValues" : [ ]
+}

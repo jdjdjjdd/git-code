@@ -1,0 +1,247 @@
+{
+  "uid" : "bb51cf9d18f428",
+  "name" : "名单绑订单后重新录入-来源",
+  "fullName" : "testcases.service_testing.PQ.test_name_list.TestNameList#test_namelist_0048",
+  "historyId" : "5a314bd9038eedb8d3449b4c81c48487",
+  "time" : {
+    "start" : 1593589289661,
+    "stop" : 1593589292588,
+    "duration" : 2927
+  },
+  "description" : "名单绑订单后重新录入-来源",
+  "descriptionHtml" : "<p>名单绑订单后重新录入-来源</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1593589060353,
+      "stop" : 1593589060693,
+      "duration" : 340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1593589060693,
+      "stop" : 1593589060693,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1593589289542,
+      "stop" : 1593589289546,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "borrow_randow_fuction",
+    "time" : {
+      "start" : 1593589289546,
+      "stop" : 1593589289661,
+      "duration" : 115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1593589057503,
+      "stop" : 1593589060353,
+      "duration" : 2850
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "order_manage",
+    "time" : {
+      "start" : 1593589089671,
+      "stop" : 1593589089671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "名单绑订单后重新录入-来源",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "预支条件：名单绑定订单",
+      "time" : {
+        "start" : 1593589289671,
+        "stop" : 1593589291639,
+        "duration" : 1968
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step1:更换供应商，再次录入名单",
+      "time" : {
+        "start" : 1593589291639,
+        "stop" : 1593589292554,
+        "duration" : 915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：录入成功，绑单状态为未绑单",
+      "time" : {
+        "start" : 1593589292554,
+        "stop" : 1593589292588,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dbc3abca3b9ba79c",
+      "name" : "log",
+      "source" : "dbc3abca3b9ba79c.txt",
+      "type" : "text/plain",
+      "size" : 4710
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1593589295388,
+      "stop" : 1593589295388,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1593589292590,
+      "stop" : 1593589292590,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "手工录入"
+  }, {
+    "name" : "feature",
+    "value" : "实接记录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_name_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "19280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_name_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb51cf9d18f428.json",
+  "parameterValues" : [ ]
+}

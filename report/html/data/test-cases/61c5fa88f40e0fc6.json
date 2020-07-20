@@ -1,0 +1,169 @@
+{
+  "uid" : "61c5fa88f40e0fc6",
+  "name" : "姓名查询",
+  "fullName" : "testcases.service_testing.PQ.test_workcard_infomange.Testworkcardinfo#test_workcardinfo_0011",
+  "historyId" : "0d58b4a52ac6f8805222dbc9ad4df1dd",
+  "time" : {
+    "start" : 1594632560441,
+    "stop" : 1594632560598,
+    "duration" : 157
+  },
+  "description" : "\n                姓名查询\n\n        ",
+  "descriptionHtml" : "<pre><code>            姓名查询\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_workcard_infomange.Testworkcardinfo object at 0x000001BB79555588>\n\n    @allure.feature('会员信息管理')\n    @allure.story('工牌信息查询')\n    @allure.title('姓名查询')\n    @allure.severity('blocker')\n    def test_workcardinfo_0011(self):\n        \"\"\"\n                姓名查询\n    \n        \"\"\"\n        print('\\n{}测试开始\\n'.format(self.test_workcardinfo_0011.__name__))\n        with allure.step(\"step1:前置条件：随机获取已存在工牌记录的姓名\"):\n            unique_sql=f\"select a.real_name from member_user_unique as a left join member_user_work_card_audit as b on a.uuid=b.uuid where b.is_deleted=0 and b.ec_id={ec_id} and b.is_canceled=0 and b.uuid>0\"\n            uniqueres=self.db.selectsql(unique_sql)\n            input_real_name=random.choice(uniqueres)[0]\n    \n        with allure.step(\"step2:填写姓名，查询工牌\"):\n            #登录\n>           self.weblogin.login(pq_boss_user)\n\ntestcases\\service_testing\\PQ\\test_workcard_infomange.py:1060: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.login.web_login.Web_Login object at 0x000001BB7965ABA8>\nphone = '13856565656'\n\n    def login(self, phone=None):\n        # 登录获取返回结果\n        result = labor_weblogin(phone,cf.web_appkey)\n>       self.Guid = result['Guid']\nE       TypeError: 'NoneType' object is not subscriptable\n\ncommon\\login\\web_login.py:16: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594632557046,
+      "stop" : 1594632557111,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1594631305945,
+      "stop" : 1594631306348,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n                姓名查询\n\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_workcard_infomange.Testworkcardinfo object at 0x000001BB79555588>\n\n    @allure.feature('会员信息管理')\n    @allure.story('工牌信息查询')\n    @allure.title('姓名查询')\n    @allure.severity('blocker')\n    def test_workcardinfo_0011(self):\n        \"\"\"\n                姓名查询\n    \n        \"\"\"\n        print('\\n{}测试开始\\n'.format(self.test_workcardinfo_0011.__name__))\n        with allure.step(\"step1:前置条件：随机获取已存在工牌记录的姓名\"):\n            unique_sql=f\"select a.real_name from member_user_unique as a left join member_user_work_card_audit as b on a.uuid=b.uuid where b.is_deleted=0 and b.ec_id={ec_id} and b.is_canceled=0 and b.uuid>0\"\n            uniqueres=self.db.selectsql(unique_sql)\n            input_real_name=random.choice(uniqueres)[0]\n    \n        with allure.step(\"step2:填写姓名，查询工牌\"):\n            #登录\n>           self.weblogin.login(pq_boss_user)\n\ntestcases\\service_testing\\PQ\\test_workcard_infomange.py:1060: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.login.web_login.Web_Login object at 0x000001BB7965ABA8>\nphone = '13856565656'\n\n    def login(self, phone=None):\n        # 登录获取返回结果\n        result = labor_weblogin(phone,cf.web_appkey)\n>       self.Guid = result['Guid']\nE       TypeError: 'NoneType' object is not subscriptable\n\ncommon\\login\\web_login.py:16: TypeError",
+    "steps" : [ {
+      "name" : "step1:前置条件：随机获取已存在工牌记录的姓名",
+      "time" : {
+        "start" : 1594632560441,
+        "stop" : 1594632560457,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step2:填写姓名，查询工牌",
+      "time" : {
+        "start" : 1594632560458,
+        "stop" : 1594632560598,
+        "duration" : 140
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not subscriptable\n",
+      "statusTrace" : "  File \"E:\\study\\python\\autotest\\testcases\\service_testing\\PQ\\test_workcard_infomange.py\", line 1060, in test_workcardinfo_0011\n    self.weblogin.login(pq_boss_user)\n  File \"E:\\study\\python\\autotest\\common\\login\\web_login.py\", line 16, in login\n    self.Guid = result['Guid']\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4d812de49814b9a8",
+      "name" : "log",
+      "source" : "4d812de49814b9a8.txt",
+      "type" : "text/plain",
+      "size" : 786
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594632563230,
+      "stop" : 1594632563230,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "会员信息管理"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "工牌信息查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_workcard_infomange"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testworkcardinfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "26496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_workcard_infomange"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "61c5fa88f40e0fc6.json",
+  "parameterValues" : [ ]
+}

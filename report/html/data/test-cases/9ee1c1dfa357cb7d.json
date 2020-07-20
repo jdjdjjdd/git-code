@@ -1,0 +1,154 @@
+{
+  "uid" : "9ee1c1dfa357cb7d",
+  "name" : "会员已有小程序补卡记录，审核身份证成功",
+  "fullName" : "testcases.service_testing.PQ.test_idcard_infomange.Testidcardinfo#test_idcardinfo_0021",
+  "historyId" : "5a0edbf4249293fd787ba5892f56223f",
+  "time" : {
+    "start" : 1594631369379,
+    "stop" : 1594631369717,
+    "duration" : 338
+  },
+  "description" : "\n                会员已有小程序补卡记录，审核身份证成功\n\n        ",
+  "descriptionHtml" : "<pre><code>            会员已有小程序补卡记录，审核身份证成功\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_idcard_infomange.Testidcardinfo object at 0x000001BB797E3E10>\n\n    @allure.feature('会员信息管理')\n    @allure.story('身份证信息查询')\n    @allure.title('会员已有小程序补卡记录，审核身份证成功')\n    @allure.severity('blocker')\n    def test_idcardinfo_0021(self):\n        \"\"\"\n                会员已有小程序补卡记录，审核身份证成功\n    \n        \"\"\"\n        print('\\n{}测试开始\\n'.format(self.test_idcardinfo_0021.__name__))\n        with allure.step(\"step1:前置条件准备\"):\n            # 创建upload_threecard对象\n>           upthreecard = upload_threecard()\n\ntestcases\\service_testing\\PQ\\test_idcard_infomange.py:1379: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestcases\\service_testing\\MiniPro\\config_data.py:41: in __init__\n    self.weblogin.login(pq_boss_user)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.login.web_login.Web_Login object at 0x000001BB797E3780>\nphone = '13856565656'\n\n    def login(self, phone=None):\n        # 登录获取返回结果\n        result = labor_weblogin(phone,cf.web_appkey)\n>       self.Guid = result['Guid']\nE       TypeError: 'NoneType' object is not subscriptable\n\ncommon\\login\\web_login.py:16: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1594631305945,
+      "stop" : 1594631306348,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594631362436,
+      "stop" : 1594631362528,
+      "duration" : 92
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n                会员已有小程序补卡记录，审核身份证成功\n\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_idcard_infomange.Testidcardinfo object at 0x000001BB797E3E10>\n\n    @allure.feature('会员信息管理')\n    @allure.story('身份证信息查询')\n    @allure.title('会员已有小程序补卡记录，审核身份证成功')\n    @allure.severity('blocker')\n    def test_idcardinfo_0021(self):\n        \"\"\"\n                会员已有小程序补卡记录，审核身份证成功\n    \n        \"\"\"\n        print('\\n{}测试开始\\n'.format(self.test_idcardinfo_0021.__name__))\n        with allure.step(\"step1:前置条件准备\"):\n            # 创建upload_threecard对象\n>           upthreecard = upload_threecard()\n\ntestcases\\service_testing\\PQ\\test_idcard_infomange.py:1379: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestcases\\service_testing\\MiniPro\\config_data.py:41: in __init__\n    self.weblogin.login(pq_boss_user)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.login.web_login.Web_Login object at 0x000001BB797E3780>\nphone = '13856565656'\n\n    def login(self, phone=None):\n        # 登录获取返回结果\n        result = labor_weblogin(phone,cf.web_appkey)\n>       self.Guid = result['Guid']\nE       TypeError: 'NoneType' object is not subscriptable\n\ncommon\\login\\web_login.py:16: TypeError",
+    "steps" : [ {
+      "name" : "step1:前置条件准备",
+      "time" : {
+        "start" : 1594631369379,
+        "stop" : 1594631369717,
+        "duration" : 338
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not subscriptable\n",
+      "statusTrace" : "  File \"E:\\study\\python\\autotest\\testcases\\service_testing\\PQ\\test_idcard_infomange.py\", line 1379, in test_idcardinfo_0021\n    upthreecard = upload_threecard()\n  File \"E:\\study\\python\\autotest\\testcases\\service_testing\\MiniPro\\config_data.py\", line 41, in __init__\n    self.weblogin.login(pq_boss_user)\n  File \"E:\\study\\python\\autotest\\common\\login\\web_login.py\", line 16, in login\n    self.Guid = result['Guid']\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "28fbf56362243829",
+      "name" : "log",
+      "source" : "28fbf56362243829.txt",
+      "type" : "text/plain",
+      "size" : 1305
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594631370156,
+      "stop" : 1594631370156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "会员信息管理"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "身份证信息查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_idcard_infomange"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testidcardinfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "26496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_idcard_infomange"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ee1c1dfa357cb7d.json",
+  "parameterValues" : [ ]
+}

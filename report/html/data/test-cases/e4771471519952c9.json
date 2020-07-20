@@ -1,0 +1,267 @@
+{
+  "uid" : "e4771471519952c9",
+  "name" : "检查扫描记录",
+  "fullName" : "testcases.service_testing.PQ.test_name_list.TestNameList#test_namelist_0023",
+  "historyId" : "1f6d9937d5f6328e87ccdbfdb7a5366c",
+  "time" : {
+    "start" : 1594631383051,
+    "stop" : 1594631383218,
+    "duration" : 167
+  },
+  "description" : "检查扫描记录",
+  "descriptionHtml" : "<p>检查扫描记录</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_name_list.TestNameList object at 0x000001BB792A2B70>\nadd_name_interview = [1384, '411402199309132291', '17633048355', '许罪烟', 2, '昆山纬创B线小时工', ...]\nweblogin = <common.login.web_login.Web_Login object at 0x000001BB77E5A080>\nname_manage = <common.business_func.namelist.NameList object at 0x000001BB797ED978>\nborrow_randow_fuction = [2, '昆山纬创B线小时工', 3], random_agent = [22701, '我的打工网']\n\n    @allure.feature('实接记录')\n    @allure.story('功能按钮')\n    @allure.title('检查扫描记录')\n    @allure.severity('critical')\n    def test_namelist_0023(self, add_name_interview, weblogin, name_manage, borrow_randow_fuction, random_agent):\n        \"\"\"检查扫描记录\"\"\"\n        print('\\n{}测试开始\\n'.format(self.test_namelist_0023.__name__))\n        with allure.step(\"step1:点击列表扫描人字段\"):\n            nameid = add_name_interview[0]\n            idnum = add_name_interview[1]\n            mobile = add_name_interview[2]\n            name = add_name_interview[3]\n            borrowname = add_name_interview[5]\n            agentid = add_name_interview[6]\n            agentname = add_name_interview[7]\n            res = name_manage.getScanRecordFZT(nameid)\n        with allure.step(\"预期结果：弹出扫描记录弹窗，扫描记录正确\"):\n>           data = res['Data']['RecordList']\nE           TypeError: 'NoneType' object is not subscriptable\n\ntestcases\\service_testing\\PQ\\test_name_list.py:786: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "borrow_randow_fuction",
+    "time" : {
+      "start" : 1594631382674,
+      "stop" : 1594631382730,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1594631382669,
+      "stop" : 1594631382674,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "random_agent",
+    "time" : {
+      "start" : 1594631382731,
+      "stop" : 1594631382783,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1594631305945,
+      "stop" : 1594631306348,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1594631370228,
+      "stop" : 1594631370228,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "add_name_interview",
+    "time" : {
+      "start" : 1594631382783,
+      "stop" : 1594631383051,
+      "duration" : 268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594631370159,
+      "stop" : 1594631370228,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "检查扫描记录",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_name_list.TestNameList object at 0x000001BB792A2B70>\nadd_name_interview = [1384, '411402199309132291', '17633048355', '许罪烟', 2, '昆山纬创B线小时工', ...]\nweblogin = <common.login.web_login.Web_Login object at 0x000001BB77E5A080>\nname_manage = <common.business_func.namelist.NameList object at 0x000001BB797ED978>\nborrow_randow_fuction = [2, '昆山纬创B线小时工', 3], random_agent = [22701, '我的打工网']\n\n    @allure.feature('实接记录')\n    @allure.story('功能按钮')\n    @allure.title('检查扫描记录')\n    @allure.severity('critical')\n    def test_namelist_0023(self, add_name_interview, weblogin, name_manage, borrow_randow_fuction, random_agent):\n        \"\"\"检查扫描记录\"\"\"\n        print('\\n{}测试开始\\n'.format(self.test_namelist_0023.__name__))\n        with allure.step(\"step1:点击列表扫描人字段\"):\n            nameid = add_name_interview[0]\n            idnum = add_name_interview[1]\n            mobile = add_name_interview[2]\n            name = add_name_interview[3]\n            borrowname = add_name_interview[5]\n            agentid = add_name_interview[6]\n            agentname = add_name_interview[7]\n            res = name_manage.getScanRecordFZT(nameid)\n        with allure.step(\"预期结果：弹出扫描记录弹窗，扫描记录正确\"):\n>           data = res['Data']['RecordList']\nE           TypeError: 'NoneType' object is not subscriptable\n\ntestcases\\service_testing\\PQ\\test_name_list.py:786: TypeError",
+    "steps" : [ {
+      "name" : "step1:点击列表扫描人字段",
+      "time" : {
+        "start" : 1594631383051,
+        "stop" : 1594631383218,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：弹出扫描记录弹窗，扫描记录正确",
+      "time" : {
+        "start" : 1594631383218,
+        "stop" : 1594631383218,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not subscriptable\n",
+      "statusTrace" : "  File \"E:\\study\\python\\autotest\\testcases\\service_testing\\PQ\\test_name_list.py\", line 786, in test_namelist_0023\n    data = res['Data']['RecordList']\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8b615e3e97f80052",
+      "name" : "log",
+      "source" : "8b615e3e97f80052.txt",
+      "type" : "text/plain",
+      "size" : 1919
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1594631383275,
+      "stop" : 1594631383275,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594631470005,
+      "stop" : 1594631470005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "功能按钮"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "实接记录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_name_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "26496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_name_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "40d30e9535d46d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593589089127,
+        "stop" : 1593589089664,
+        "duration" : 537
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e4771471519952c9.json",
+  "parameterValues" : [ ]
+}

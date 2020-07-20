@@ -1,0 +1,41 @@
+{
+    "getnamelist": {
+        "StartTime": "2020-05-09",
+        "EndTime": "2020-05-15",
+        "InterviewStatus": 9999,
+        "RcrtTyp": -9999,
+        "FromBindStatus": -9999,
+        "RecordIndex": 0,
+        "RecordSize": 10,
+        "SpIDs": [
+            22699
+        ]
+    },
+
+    "DJY_Name_Manager/AddNameForOpenAPI": {
+        "InterviewDate": null,
+        "Name": null,
+        "Gender": null,
+        "IDCardNum": null,
+        "EntId": null,
+        "Mobile": null,
+        "Nation": null,
+        "IDCardExprDate": null,
+        "Addr": null,
+        "SpEntID": null,
+        "InterviewStatus": null,
+        "Remark": null,
+        "FromSpID": null,
+        "FromSpName": null,
+        "TargetSpId": null,
+        "SpName": null,
+        "InputType": null
+    },
+    "DJY_Name_Manager/SetSpForOpenAPI": {
+        "NameListIds":null,
+        "SpCoopId":null,
+        "SpCoopName":null,
+        "SpGroupId":null
+    }
+
+}

@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "47df34acf56ee71e099f27b8883f04aa",
+    "name" : "testcases.service_testing.PQ",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 76,
+      "skipped" : 0,
+      "passed" : 98,
+      "unknown" : 0,
+      "total" : 178
+    }
+  }, {
+    "uid" : "60b7dd926b215a3222d07816a822a8c5",
+    "name" : "testcases.service_testing.MiniPro",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "1b19b0114d85e3bb3f777d5fe7cc58de",
+    "name" : "testcases.exception_testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

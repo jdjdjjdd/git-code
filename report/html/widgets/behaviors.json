@@ -1,0 +1,59 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "5fe579e1367895a3e40fed9eecd75e03",
+    "name" : "实接记录",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "2815a4e153b8cafbc1ec7cbdeca4fedc",
+    "name" : "可预支名单",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "800d06939dabcc5d6a07e7b3cc290825",
+    "name" : "小程序登录",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3a73b04ccbaf487526da2278e73bf9d1",
+    "name" : "上传三卡",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "31d3b0d1301e307e3a8b941dab725d26",
+    "name" : "会员信息管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

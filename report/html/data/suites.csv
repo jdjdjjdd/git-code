@@ -1,0 +1,470 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 13 17:29:10 CST 2020","Mon Jul 13 17:29:11 CST 2020","1950","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用订单编号查询","使用订单编号查询"
+"broken","Mon Jul 13 17:09:20 CST 2020","Mon Jul 13 17:09:21 CST 2020","341","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","会员在其他ec下存在审核通过的银行卡，审核通过会员的银行卡","
+                会员在其他ec下存在审核通过的银行卡，审核通过会员的银行卡
+
+        "
+"failed","Mon Jul 13 17:10:26 CST 2020","Mon Jul 13 17:10:26 CST 2020","417","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用订单编号查询","使用订单编号查询"
+"passed","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:27 CST 2020","92","testcases.service_testing.MiniPro","test_login","TestLoin","","","输入正确的手机号码，获取验证码","
+                输入正确的手机号码，获取验证码
+
+        "
+"passed","Mon Jul 13 17:11:43 CST 2020","Mon Jul 13 17:12:16 CST 2020","33400","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","生成预支名单2","生成预支名单2"
+"broken","Mon Jul 13 17:09:26 CST 2020","Mon Jul 13 17:09:27 CST 2020","336","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","手动审核身份证成功","
+                手动审核身份证成功
+
+        "
+"passed","Mon Jul 13 17:08:44 CST 2020","Mon Jul 13 17:08:45 CST 2020","489","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员已上传待审核状态身份证，再次上传身份证","
+                会员已上传待审核状态身份证，再次上传身份证
+
+        "
+"passed","Mon Jul 13 17:09:33 CST 2020","Mon Jul 13 17:09:34 CST 2020","342","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同面试状态录入：面试状态为4","手动录入-不同面试状态录入"
+"broken","Mon Jul 13 17:09:14 CST 2020","Mon Jul 13 17:09:15 CST 2020","411","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"passed","Mon Jul 13 17:10:20 CST 2020","Mon Jul 13 17:10:20 CST 2020","296","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用面试状态查询","使用面试状态查询"
+"passed","Mon Jul 13 17:28:59 CST 2020","Mon Jul 13 17:28:59 CST 2020","206","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用在职状态查询","使用在职状态查询"
+"broken","Mon Jul 13 17:09:24 CST 2020","Mon Jul 13 17:09:24 CST 2020","125","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","手机号码查询","
+                手机号码查询
+
+        "
+"passed","Mon Jul 13 17:29:05 CST 2020","Mon Jul 13 17:29:05 CST 2020","181","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用在职状态查询","使用在职状态查询"
+"passed","Mon Jul 13 17:09:47 CST 2020","Mon Jul 13 17:09:49 CST 2020","2564","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用面试日期查询","使用面试日期查询"
+"broken","Mon Jul 13 17:09:43 CST 2020","Mon Jul 13 17:09:43 CST 2020","167","testcases.service_testing.PQ","test_name_list","TestNameList","","","检查扫描记录","检查扫描记录"
+"broken","Mon Jul 13 17:09:11 CST 2020","Mon Jul 13 17:09:12 CST 2020","330","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","身份证审核通过状态，未审核状态的银行信息记录检查","
+                身份证审核通过状态，未审核状态的银行信息记录检查
+
+        "
+"broken","Mon Jul 13 17:08:43 CST 2020","Mon Jul 13 17:08:44 CST 2020","793","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员工牌列表检查","
+            会员存在待审核、审核通过、审核不通过工牌，查看小程序工牌列表
+
+        "
+"broken","Mon Jul 13 17:09:28 CST 2020","Mon Jul 13 17:09:28 CST 2020","335","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","会员已有多条结算名单，审核身份证成功","
+                会员已有多条结算名单，审核身份证成功
+
+        "
+"passed","Mon Jul 13 17:14:59 CST 2020","Mon Jul 13 17:15:30 CST 2020","31533","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","订单模式不同的预支名单","订单模式不同的预支名单"
+"broken","Mon Jul 13 17:09:18 CST 2020","Mon Jul 13 17:09:18 CST 2020","312","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","上传日期查询","
+                上传日期查询
+
+        "
+"broken","Mon Jul 13 17:29:21 CST 2020","Mon Jul 13 17:29:21 CST 2020","136","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"broken","Mon Jul 13 17:09:12 CST 2020","Mon Jul 13 17:09:13 CST 2020","344","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","身份证审核通过状态，审核不通过银行卡信息记录检查","
+                身份证审核通过状态，审核不通过银行卡信息记录检查
+
+        "
+"broken","Mon Jul 13 17:09:13 CST 2020","Mon Jul 13 17:09:13 CST 2020","147","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","统计信息数据检查","
+                统计信息数据检查
+
+        "
+"broken","Mon Jul 13 17:09:25 CST 2020","Mon Jul 13 17:09:26 CST 2020","125","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","上传日期查询","
+                上传日期查询
+
+        "
+"passed","Mon Jul 13 17:22:15 CST 2020","Mon Jul 13 17:22:45 CST 2020","30244","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","在职状态","在职状态"
+"broken","Mon Jul 13 17:29:20 CST 2020","Mon Jul 13 17:29:21 CST 2020","149","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","标准企业查询","
+                标准企业查询
+
+        "
+"passed","Mon Jul 13 17:09:33 CST 2020","Mon Jul 13 17:09:33 CST 2020","347","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同面试状态录入：面试状态为3","手动录入-不同面试状态录入"
+"broken","Mon Jul 13 17:09:18 CST 2020","Mon Jul 13 17:09:18 CST 2020","140","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","组合查询","
+                填写身份证号码、姓名、手机号码、银行名称、银行卡号、审核状态、上传日期查询
+
+        "
+"broken","Mon Jul 13 17:09:25 CST 2020","Mon Jul 13 17:09:25 CST 2020","127","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","上传日期查询","
+                上传日期查询
+
+        "
+"passed","Mon Jul 13 17:14:27 CST 2020","Mon Jul 13 17:14:58 CST 2020","31370","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","订单模式不同的预支名单","订单模式不同的预支名单"
+"passed","Mon Jul 13 17:23:19 CST 2020","Mon Jul 13 17:23:50 CST 2020","31431","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","在职状态-离职","在职状态-离职"
+"passed","Mon Jul 13 17:25:29 CST 2020","Mon Jul 13 17:25:32 CST 2020","3140","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用面试日期查询","使用面试日期查询"
+"passed","Mon Jul 13 17:11:05 CST 2020","Mon Jul 13 17:11:07 CST 2020","1859","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单绑订单后重新录入-工种","名单绑订单后重新录入-工种"
+"broken","Mon Jul 13 17:29:19 CST 2020","Mon Jul 13 17:29:19 CST 2020","138","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","统计信息数据检查","
+                统计信息数据检查
+
+        "
+"broken","Mon Jul 13 17:08:35 CST 2020","Mon Jul 13 17:08:37 CST 2020","2522","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员上传银行卡","
+                        会员上传银行卡
+
+        "
+"passed","Mon Jul 13 17:09:30 CST 2020","Mon Jul 13 17:09:30 CST 2020","585","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不填选填信息","
+        手动录入-不填选填信息
+
+        "
+"broken","Mon Jul 13 17:09:11 CST 2020","Mon Jul 13 17:09:11 CST 2020","310","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","身份证审核不通过状态银行卡信息记录检查","
+                身份证审核不通过状态银行卡信息记录检查
+
+        "
+"passed","Mon Jul 13 17:23:52 CST 2020","Mon Jul 13 17:24:23 CST 2020","30944","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","在职状态-转正","在职状态-转正"
+"broken","Mon Jul 13 17:29:22 CST 2020","Mon Jul 13 17:29:22 CST 2020","126","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","上传时期查询","
+                上传时期查询
+
+        "
+"broken","Mon Jul 13 17:09:12 CST 2020","Mon Jul 13 17:09:12 CST 2020","316","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","身份证审核通过状态，审核通过银行卡信息记录检查","
+                身份证审核通过状态，审核通过银行卡信息记录检查
+
+        "
+"passed","Mon Jul 13 17:09:40 CST 2020","Mon Jul 13 17:09:40 CST 2020","159","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置面试状态","名单设置面试状态"
+"passed","Mon Jul 13 17:28:58 CST 2020","Mon Jul 13 17:28:58 CST 2020","768","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用身份证号码查询","使用身份证号码查询"
+"broken","Mon Jul 13 17:09:24 CST 2020","Mon Jul 13 17:09:24 CST 2020","153","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","身份证号码查询","
+                身份证号码查询
+
+        "
+"passed","Mon Jul 13 17:27:54 CST 2020","Mon Jul 13 17:28:25 CST 2020","31625","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用企业查询","使用企业查询"
+"broken","Mon Jul 13 17:29:20 CST 2020","Mon Jul 13 17:29:20 CST 2020","157","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","姓名查询","
+                姓名查询
+
+        "
+"passed","Mon Jul 13 17:10:04 CST 2020","Mon Jul 13 17:10:05 CST 2020","500","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用身份证号查询","使用身份证号查询"
+"broken","Mon Jul 13 17:09:25 CST 2020","Mon Jul 13 17:09:25 CST 2020","126","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","上传日期查询","
+                上传日期查询
+
+        "
+"broken","Mon Jul 13 17:08:43 CST 2020","Mon Jul 13 17:08:43 CST 2020","588","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员已上传待审核状态的工牌再次上传工牌","
+            会员已上传待审核状态的工牌再次上传工牌
+
+        "
+"passed","Mon Jul 13 17:09:43 CST 2020","Mon Jul 13 17:09:44 CST 2020","1306","testcases.service_testing.PQ","test_name_list","TestNameList","","","检查名单绑订单","检查名单绑订单"
+"failed","Mon Jul 13 17:09:45 CST 2020","Mon Jul 13 17:09:46 CST 2020","962","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单和订单企业不一致","名单和订单企业不一致"
+"broken","Mon Jul 13 17:29:22 CST 2020","Mon Jul 13 17:29:23 CST 2020","331","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","会员无结算名单审核工牌","
+                会员无结算名单审核工牌
+
+        "
+"broken","Mon Jul 13 17:29:22 CST 2020","Mon Jul 13 17:29:22 CST 2020","125","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","上传时期查询","
+                上传时期查询
+
+        "
+"broken","Mon Jul 13 17:09:26 CST 2020","Mon Jul 13 17:09:26 CST 2020","146","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","组合查询","
+                填写身份证号码、手机号码、姓名、审核状态、上传日期查询
+
+        "
+"passed","Mon Jul 13 17:09:38 CST 2020","Mon Jul 13 17:09:38 CST 2020","198","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置面试状态","名单设置面试状态"
+"broken","Mon Jul 13 17:09:13 CST 2020","Mon Jul 13 17:09:13 CST 2020","127","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","身份证号码查询","
+                身份证号码查询
+
+        "
+"broken","Mon Jul 13 17:29:20 CST 2020","Mon Jul 13 17:29:20 CST 2020","135","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","默认查询项查询","
+                默认查询项查询
+
+        "
+"passed","Mon Jul 13 17:25:33 CST 2020","Mon Jul 13 17:25:39 CST 2020","6246","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用供应商查询","使用供应商查询"
+"passed","Mon Jul 13 17:08:29 CST 2020","Mon Jul 13 17:08:31 CST 2020","1679","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","选择身份证图片，上传身份证","
+                选择身份证图片，上传身份证
+
+        "
+"passed","Mon Jul 13 17:29:01 CST 2020","Mon Jul 13 17:29:04 CST 2020","3421","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用在职状态查询","使用在职状态查询"
+"broken","Mon Jul 13 17:09:14 CST 2020","Mon Jul 13 17:09:14 CST 2020","173","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","银行名称查询","
+                银行名称查询
+
+        "
+"passed","Mon Jul 13 17:11:02 CST 2020","Mon Jul 13 17:11:03 CST 2020","508","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量设置面试状态","批量设置面试状态"
+"passed","Mon Jul 13 17:10:03 CST 2020","Mon Jul 13 17:10:04 CST 2020","414","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用姓名查询","使用姓名查询"
+"passed","Mon Jul 13 17:11:03 CST 2020","Mon Jul 13 17:11:04 CST 2020","508","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量设置面试状态","批量设置面试状态"
+"broken","Mon Jul 13 17:09:14 CST 2020","Mon Jul 13 17:09:14 CST 2020","144","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","手机号码查询","
+                手机号码查询
+
+        "
+"passed","Mon Jul 13 17:10:16 CST 2020","Mon Jul 13 17:10:17 CST 2020","222","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用性别查询","使用性别查询"
+"passed","Mon Jul 13 17:10:24 CST 2020","Mon Jul 13 17:10:24 CST 2020","160","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用企业类型查询","使用企业类型查询"
+"broken","Mon Jul 13 17:08:25 CST 2020","Mon Jul 13 17:08:25 CST 2020","0","testcases.exception_testing","test_api_exception_case","Test","","","test_01[data0]",""
+"passed","Mon Jul 13 17:09:42 CST 2020","Mon Jul 13 17:09:42 CST 2020","367","testcases.service_testing.PQ","test_name_list","TestNameList","","","查看列表不脱敏信息","查看列表不脱敏信息"
+"broken","Mon Jul 13 17:09:23 CST 2020","Mon Jul 13 17:09:24 CST 2020","129","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","统计信息数据检查","
+                统计信息数据检查
+
+        "
+"broken","Mon Jul 13 17:09:26 CST 2020","Mon Jul 13 17:09:26 CST 2020","320","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","刷新待审核状态的身份证","
+                刷新待审核状态的身份证
+
+        "
+"passed","Mon Jul 13 17:24:25 CST 2020","Mon Jul 13 17:24:56 CST 2020","30754","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","在职状态-未处理","在职状态-未处理"
+"passed","Mon Jul 13 17:18:12 CST 2020","Mon Jul 13 17:19:14 CST 2020","61688","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","预支名单更换来源重新绑单","预支名单更换来源重新绑单"
+"broken","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:27 CST 2020","0","testcases.exception_testing","test_api_exception_case","Test","","","test_01[data1]",""
+"broken","Mon Jul 13 17:09:27 CST 2020","Mon Jul 13 17:09:27 CST 2020","329","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","填写已存在的身份证号码审核通过","
+                填写ec下已审核通过的身份证号码和姓名，审核通过身份证
+
+        "
+"broken","Mon Jul 13 17:29:18 CST 2020","Mon Jul 13 17:29:19 CST 2020","359","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","身份证审核通过状态，审核不通过状态的工牌信息检查","
+                身份证审核通过状态，审核不通过状态的工牌信息检查
+
+        "
+"passed","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:28 CST 2020","1238","testcases.service_testing.MiniPro","test_login","TestLoin","","","输入正确的验证码和手机号码,tenant_type为2登录","
+                        输入正确的验证码和手机号码,tenant_type为2登录
+
+        "
+"passed","Mon Jul 13 17:25:32 CST 2020","Mon Jul 13 17:25:32 CST 2020","260","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用入职日期查询","使用入职日期查询"
+"passed","Mon Jul 13 17:11:07 CST 2020","Mon Jul 13 17:11:08 CST 2020","1233","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单绑订单后重新录入-来源","名单绑订单后重新录入-来源"
+"passed","Mon Jul 13 17:11:02 CST 2020","Mon Jul 13 17:11:02 CST 2020","506","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量设置面试状态","批量设置面试状态"
+"broken","Mon Jul 13 17:29:18 CST 2020","Mon Jul 13 17:29:18 CST 2020","332","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","身份证审核通过状态，审核通过状态的工牌信息检查","
+                身份证审核通过状态，审核通过状态的工牌信息检查
+
+        "
+"broken","Mon Jul 13 17:09:11 CST 2020","Mon Jul 13 17:09:11 CST 2020","358","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","身份证未审核状态银行卡信息记录检查","
+                身份证未审核状态银行卡信息记录检查
+
+        "
+"passed","Mon Jul 13 17:11:04 CST 2020","Mon Jul 13 17:11:05 CST 2020","1239","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量修改备注","批量修改备注"
+"passed","Mon Jul 13 17:09:34 CST 2020","Mon Jul 13 17:09:34 CST 2020","355","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同性别录入:性别为2","手动录入-不同性别录入"
+"broken","Mon Jul 13 17:09:13 CST 2020","Mon Jul 13 17:09:13 CST 2020","132","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","默认查询项查询","
+                默认查询项查询
+
+        "
+"passed","Mon Jul 13 17:28:58 CST 2020","Mon Jul 13 17:28:59 CST 2020","573","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用姓名查询","使用身份证号码查询"
+"passed","Mon Jul 13 17:09:39 CST 2020","Mon Jul 13 17:09:39 CST 2020","178","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置面试状态","名单设置面试状态"
+"passed","Mon Jul 13 17:10:10 CST 2020","Mon Jul 13 17:10:13 CST 2020","3425","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用设置检查查询","使用设置检查查询"
+"broken","Mon Jul 13 17:09:25 CST 2020","Mon Jul 13 17:09:25 CST 2020","139","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"passed","Mon Jul 13 17:10:17 CST 2020","Mon Jul 13 17:10:20 CST 2020","2963","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用面试状态查询","使用面试状态查询"
+"passed","Mon Jul 13 17:22:47 CST 2020","Mon Jul 13 17:23:17 CST 2020","30605","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","在职状态-在职","在职状态-在职"
+"passed","Mon Jul 13 17:11:09 CST 2020","Mon Jul 13 17:11:09 CST 2020","964","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单绑订单后修改来源","名单绑订单后重新录入-来源"
+"broken","Mon Jul 13 17:29:17 CST 2020","Mon Jul 13 17:29:17 CST 2020","333","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","身份证审核不通过状态工牌信息记录检查","
+                身份证审核不通过状态工牌信息记录检查
+
+        "
+"broken","Mon Jul 13 17:09:23 CST 2020","Mon Jul 13 17:09:23 CST 2020","368","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","审核通过状态身份证信息记录检查","
+                审核通过状态身份证信息记录检查
+
+        "
+"broken","Mon Jul 13 17:08:41 CST 2020","Mon Jul 13 17:08:42 CST 2020","880","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员身份证未审核通过上传工牌","
+            会员身份证未审核通过上传工牌
+
+        "
+"passed","Mon Jul 13 17:17:09 CST 2020","Mon Jul 13 17:18:11 CST 2020","61647","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","预支名单更换工种重新绑单","预支名单更换工种重新绑单"
+"passed","Mon Jul 13 17:29:13 CST 2020","Mon Jul 13 17:29:15 CST 2020","1557","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","分页数据量检查","分页数据量检查"
+"broken","Mon Jul 13 17:09:22 CST 2020","Mon Jul 13 17:09:23 CST 2020","480","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","待审核状态身份证信息记录检查","
+                待审核状态身份证信息记录检查
+
+        "
+"broken","Mon Jul 13 17:09:21 CST 2020","Mon Jul 13 17:09:22 CST 2020","365","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","修改审核通过会员银行卡号","
+                修改审核通过会员银行卡号
+
+        "
+"passed","Mon Jul 13 17:29:16 CST 2020","Mon Jul 13 17:29:17 CST 2020","316","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","概要检查","分页数据量检查"
+"broken","Mon Jul 13 17:09:13 CST 2020","Mon Jul 13 17:09:13 CST 2020","130","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","银行卡信息列表查看未脱敏手机号、未脱敏身份证号码、未脱敏银行卡号","
+                银行卡信息列表查看未脱敏手机号、未脱敏身份证号码、未脱敏银行卡号
+
+        "
+"passed","Mon Jul 13 17:11:03 CST 2020","Mon Jul 13 17:11:03 CST 2020","495","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量设置面试状态","批量设置面试状态"
+"passed","Mon Jul 13 17:10:07 CST 2020","Mon Jul 13 17:10:10 CST 2020","3146","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用扫描人查询","使用扫描人查询"
+"passed","Mon Jul 13 17:09:35 CST 2020","Mon Jul 13 17:09:36 CST 2020","684","testcases.service_testing.PQ","test_name_list","TestNameList","","","手工录入-关闭标准企业","手工录入-关闭标准企业"
+"passed","Mon Jul 13 17:09:34 CST 2020","Mon Jul 13 17:09:34 CST 2020","336","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同性别录入:性别为1","手动录入-不同性别录入"
+"broken","Mon Jul 13 17:29:19 CST 2020","Mon Jul 13 17:29:19 CST 2020","134","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","工牌信息列表查看未脱敏手机号、未脱敏身份证号码","
+                工牌信息列表查看未脱敏手机号、未脱敏身份证号码
+
+        "
+"broken","Mon Jul 13 17:09:27 CST 2020","Mon Jul 13 17:09:28 CST 2020","326","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","身份证最后一位为小写“x”，身份证审核通过","
+                身份证最后一位为小写“x”，身份证审核通过
+
+        "
+"passed","Mon Jul 13 17:10:58 CST 2020","Mon Jul 13 17:11:01 CST 2020","3625","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量设置来源","批量设置来源"
+"broken","Mon Jul 13 17:09:13 CST 2020","Mon Jul 13 17:09:14 CST 2020","146","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","姓名查询","
+                身份证号码查询
+
+        "
+"passed","Mon Jul 13 17:29:05 CST 2020","Mon Jul 13 17:29:09 CST 2020","4427","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用名单是否作废查询","使用名单是否作废查询"
+"passed","Mon Jul 13 17:29:15 CST 2020","Mon Jul 13 17:29:16 CST 2020","1181","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","分页数据量检查","分页数据量检查"
+"passed","Mon Jul 13 17:24:57 CST 2020","Mon Jul 13 17:25:29 CST 2020","31392","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","在职状态-自离","在职状态-自离"
+"broken","Mon Jul 13 17:09:19 CST 2020","Mon Jul 13 17:09:19 CST 2020","367","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","刷新待审核状态的银行卡","
+                刷新待审核状态的银行卡
+
+        "
+"broken","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:27 CST 2020","0","testcases.exception_testing","test_api_exception_case","Test","","","test_01[data3]",""
+"broken","Mon Jul 13 17:29:21 CST 2020","Mon Jul 13 17:29:21 CST 2020","126","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"passed","Mon Jul 13 17:16:03 CST 2020","Mon Jul 13 17:16:36 CST 2020","33031","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","订单模式不同的预支名单","相同身份证不同面试日期的预支名单"
+"broken","Mon Jul 13 17:29:19 CST 2020","Mon Jul 13 17:29:19 CST 2020","346","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","会员有多条结算名单，查询工牌信息接口返回数据检查","
+                会员有多条结算名单，查询工牌信息接口返回数据检查
+
+        "
+"broken","Mon Jul 13 17:08:42 CST 2020","Mon Jul 13 17:08:43 CST 2020","793","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员身份证已审核通过上传工牌","
+            会员身份证已审核通过上传工牌
+
+        "
+"passed","Mon Jul 13 17:09:36 CST 2020","Mon Jul 13 17:09:37 CST 2020","421","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置来源","
+        名单设置来源
+        "
+"passed","Mon Jul 13 17:10:26 CST 2020","Mon Jul 13 17:10:30 CST 2020","3512","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用订单绑定状态查询","使用订单绑定状态查询"
+"broken","Mon Jul 13 17:09:29 CST 2020","Mon Jul 13 17:09:30 CST 2020","326","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","会员已上传工牌，审核身份证成功","
+                会员已上传工牌，审核身份证成功
+
+        "
+"passed","Mon Jul 13 17:10:20 CST 2020","Mon Jul 13 17:10:21 CST 2020","227","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用面试状态查询","使用面试状态查询"
+"broken","Mon Jul 13 17:09:16 CST 2020","Mon Jul 13 17:09:17 CST 2020","893","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"passed","Mon Jul 13 17:10:06 CST 2020","Mon Jul 13 17:10:06 CST 2020","415","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用手机号码查询","使用手机号码查询"
+"broken","Mon Jul 13 17:29:20 CST 2020","Mon Jul 13 17:29:20 CST 2020","143","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","手机号码查询","
+                手机号码查询
+
+        "
+"passed","Mon Jul 13 17:09:46 CST 2020","Mon Jul 13 17:09:47 CST 2020","518","testcases.service_testing.PQ","test_name_list","TestNameList","","","补录及修改手机号码","补录及修改手机号码"
+"passed","Mon Jul 13 17:09:39 CST 2020","Mon Jul 13 17:09:40 CST 2020","149","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置面试状态","名单设置面试状态"
+"passed","Mon Jul 13 17:29:01 CST 2020","Mon Jul 13 17:29:01 CST 2020","173","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用在职状态查询","使用在职状态查询"
+"passed","Mon Jul 13 17:09:38 CST 2020","Mon Jul 13 17:09:38 CST 2020","160","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置面试状态","名单设置面试状态"
+"passed","Mon Jul 13 17:21:43 CST 2020","Mon Jul 13 17:22:13 CST 2020","30253","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","身份证脱敏","身份证脱敏"
+"broken","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:27 CST 2020","0","testcases.exception_testing","test_api_exception_case","Test","","","test_01[data2]",""
+"broken","Mon Jul 13 17:29:17 CST 2020","Mon Jul 13 17:29:17 CST 2020","317","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","身份证未审核状态工牌信息记录检查","
+                身份证未审核状态工牌信息记录检查
+
+        "
+"broken","Mon Jul 13 17:09:17 CST 2020","Mon Jul 13 17:09:17 CST 2020","686","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","上传日期查询","
+                上传日期查询
+
+        "
+"broken","Mon Jul 13 17:08:37 CST 2020","Mon Jul 13 17:08:41 CST 2020","3771","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","银行卡列表数据查看","
+           会员存在待审核、审核通过、审核不通过银行卡，查看小程序银行卡列表
+
+        "
+"broken","Mon Jul 13 17:09:25 CST 2020","Mon Jul 13 17:09:25 CST 2020","221","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"broken","Mon Jul 13 17:29:21 CST 2020","Mon Jul 13 17:29:21 CST 2020","154","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","工牌号查询","
+                工牌号查询
+
+        "
+"broken","Mon Jul 13 17:29:21 CST 2020","Mon Jul 13 17:29:21 CST 2020","127","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"passed","Mon Jul 13 17:09:11 CST 2020","Mon Jul 13 17:09:11 CST 2020","0","testcases.service_testing.PQ","test_a","","","","test_1",""
+"passed","Mon Jul 13 17:25:33 CST 2020","Mon Jul 13 17:25:33 CST 2020","304","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用离职日期查询","使用离职日期查询"
+"passed","Mon Jul 13 17:26:50 CST 2020","Mon Jul 13 17:27:21 CST 2020","31409","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用企业查询","使用企业查询"
+"passed","Mon Jul 13 17:09:32 CST 2020","Mon Jul 13 17:09:33 CST 2020","343","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同面试状态录入：面试状态为2","手动录入-不同面试状态录入"
+"broken","Mon Jul 13 17:09:24 CST 2020","Mon Jul 13 17:09:24 CST 2020","141","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","姓名查询","
+                姓名查询
+
+        "
+"passed","Mon Jul 13 17:10:13 CST 2020","Mon Jul 13 17:10:16 CST 2020","3267","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用性别查询","使用性别查询"
+"passed","Mon Jul 13 17:10:20 CST 2020","Mon Jul 13 17:10:20 CST 2020","335","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用面试状态查询","使用面试状态查询"
+"passed","Mon Jul 13 17:09:44 CST 2020","Mon Jul 13 17:09:45 CST 2020","663","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单没有来源绑定订单","名单没有来源绑定订单"
+"passed","Mon Jul 13 17:12:49 CST 2020","Mon Jul 13 17:13:21 CST 2020","32000","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","生成预支名单4","生成预支名单4"
+"broken","Mon Jul 13 17:09:28 CST 2020","Mon Jul 13 17:09:28 CST 2020","323","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","会员已有结算名单，审核身份证成功","
+                会员已有结算名单，审核身份证成功
+
+        "
+"passed","Mon Jul 13 17:13:55 CST 2020","Mon Jul 13 17:14:27 CST 2020","31469","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","订单模式不同的预支名单","订单模式不同的预支名单"
+"passed","Mon Jul 13 17:09:49 CST 2020","Mon Jul 13 17:09:53 CST 2020","3548","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用标准企业查询","使用标准企业查询"
+"passed","Mon Jul 13 17:27:22 CST 2020","Mon Jul 13 17:27:53 CST 2020","31535","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用企业查询","使用企业查询"
+"failed","Mon Jul 13 17:13:22 CST 2020","Mon Jul 13 17:13:55 CST 2020","32568","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","生成预支名单5","生成预支名单5"
+"passed","Mon Jul 13 17:09:37 CST 2020","Mon Jul 13 17:09:37 CST 2020","201","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置来源","
+        名单设置来源
+
+        "
+"broken","Mon Jul 13 17:09:20 CST 2020","Mon Jul 13 17:09:20 CST 2020","346","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","会员已有审核通过银行卡再次上传新的银行卡审核通过","
+                会员已有审核通过银行卡再次上传新的银行卡审核通过
+
+        "
+"broken","Mon Jul 13 17:09:24 CST 2020","Mon Jul 13 17:09:24 CST 2020","137","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","默认查询项查询","
+                默认查询项查询
+
+        "
+"broken","Mon Jul 13 17:09:19 CST 2020","Mon Jul 13 17:09:20 CST 2020","618","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","待审核状态银行卡手动审核不通过","
+                待审核状态银行卡手动审核不通过
+
+        "
+"passed","Mon Jul 13 17:29:00 CST 2020","Mon Jul 13 17:29:00 CST 2020","289","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用在职状态查询","使用在职状态查询"
+"broken","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:27 CST 2020","0","testcases.exception_testing","test_api_exception_case","Test","","","test_01[data4]",""
+"passed","Mon Jul 13 17:21:06 CST 2020","Mon Jul 13 17:21:42 CST 2020","35592","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","作废/恢复可预支名单","作废/恢复可预支名单"
+"passed","Mon Jul 13 17:25:43 CST 2020","Mon Jul 13 17:26:18 CST 2020","34351","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用企业查询","使用企业查询"
+"broken","Mon Jul 13 17:09:29 CST 2020","Mon Jul 13 17:09:29 CST 2020","338","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","会员已有小程序补卡记录，审核身份证成功","
+                会员已有小程序补卡记录，审核身份证成功
+
+        "
+"broken","Mon Jul 13 17:09:23 CST 2020","Mon Jul 13 17:09:23 CST 2020","351","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","审核不通过状态身份证信息记录检查","
+                审核不通过状态身份证信息记录检查
+
+        "
+"broken","Mon Jul 13 17:09:19 CST 2020","Mon Jul 13 17:09:19 CST 2020","346","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","待审核状态银行卡手动审核成功","
+                待审核状态银行卡手动审核成功
+
+        "
+"broken","Mon Jul 13 17:09:18 CST 2020","Mon Jul 13 17:09:18 CST 2020","310","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","上传日期查询","
+                上传日期查询
+
+        "
+"broken","Mon Jul 13 17:08:27 CST 2020","Mon Jul 13 17:08:27 CST 2020","0","testcases.exception_testing","test_api_exception_case","Test","","","test_01[data5]",""
+"broken","Mon Jul 13 17:08:31 CST 2020","Mon Jul 13 17:08:35 CST 2020","3785","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员已上传身份证，再次上传身份证","
+                会员已上传身份证，再次上传身份证
+
+        "
+"broken","Mon Jul 13 17:29:21 CST 2020","Mon Jul 13 17:29:22 CST 2020","166","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","上传时期查询","
+                上传时期查询
+
+        "
+"passed","Mon Jul 13 17:09:59 CST 2020","Mon Jul 13 17:10:03 CST 2020","3884","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用谁送给我查询","使用谁送给我查询"
+"broken","Mon Jul 13 17:09:24 CST 2020","Mon Jul 13 17:09:25 CST 2020","145","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"passed","Mon Jul 13 17:26:18 CST 2020","Mon Jul 13 17:26:50 CST 2020","31429","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用企业查询","使用企业查询"
+"passed","Mon Jul 13 17:29:00 CST 2020","Mon Jul 13 17:29:00 CST 2020","253","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用在职状态查询","使用在职状态查询"
+"broken","Mon Jul 13 17:09:21 CST 2020","Mon Jul 13 17:09:21 CST 2020","353","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","会员已有审核通过的银行卡再次审核通过相同银行卡号的银行卡","
+                会员已有审核通过的银行卡再次审核通过相同银行卡号的银行卡
+
+        "
+"passed","Mon Jul 13 17:09:53 CST 2020","Mon Jul 13 17:09:59 CST 2020","5597","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用企业查询","使用企业查询"
+"passed","Mon Jul 13 17:25:39 CST 2020","Mon Jul 13 17:25:43 CST 2020","3586","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用标准企业查询","使用标准企业查询"
+"passed","Mon Jul 13 17:09:41 CST 2020","Mon Jul 13 17:09:41 CST 2020","170","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单设置面试状态","名单设置面试状态"
+"passed","Mon Jul 13 17:09:41 CST 2020","Mon Jul 13 17:09:41 CST 2020","275","testcases.service_testing.PQ","test_name_list","TestNameList","","","名单修改备注","名单修改备注"
+"passed","Mon Jul 13 17:11:10 CST 2020","Mon Jul 13 17:11:43 CST 2020","32823","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","生成预支名单1","生成预支名单1"
+"passed","Mon Jul 13 17:09:32 CST 2020","Mon Jul 13 17:09:32 CST 2020","349","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同面试状态录入：面试状态为1","手动录入-不同面试状态录入"
+"failed","Mon Jul 13 17:12:17 CST 2020","Mon Jul 13 17:12:49 CST 2020","32169","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","生成预支名单3","生成预支名单3"
+"passed","Mon Jul 13 17:15:31 CST 2020","Mon Jul 13 17:16:02 CST 2020","31513","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","订单模式不同的预支名单","订单模式不同的预支名单"
+"broken","Mon Jul 13 17:09:27 CST 2020","Mon Jul 13 17:09:27 CST 2020","344","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","待审核状态身份证手动审核不通过","
+                待审核状态身份证手动审核不通过
+
+        "
+"broken","Mon Jul 13 17:09:14 CST 2020","Mon Jul 13 17:09:14 CST 2020","237","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","银行卡号查询","
+                银行卡号查询
+
+        "
+"passed","Mon Jul 13 17:10:20 CST 2020","Mon Jul 13 17:10:20 CST 2020","215","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用面试状态查询","使用面试状态查询"
+"broken","Mon Jul 13 17:09:24 CST 2020","Mon Jul 13 17:09:24 CST 2020","140","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","身份证信息列表查看未脱敏手机号和未脱敏身份证号码","
+                身份证信息列表查看未脱敏手机号和未脱敏身份证号码
+
+        "
+"broken","Mon Jul 13 17:08:45 CST 2020","Mon Jul 13 17:08:45 CST 2020","461","testcases.service_testing.MiniPro","test_uploadThreecard","TestThreecard","","","会员已上传审核通过的身份证，再次上传身份证","
+                会员已上传身份证，再次上传身份证
+
+        "
+"passed","Mon Jul 13 17:29:12 CST 2020","Mon Jul 13 17:29:13 CST 2020","1451","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","组合查询","组合查询"
+"passed","Mon Jul 13 17:11:01 CST 2020","Mon Jul 13 17:11:02 CST 2020","491","testcases.service_testing.PQ","test_name_list","TestNameList","","","批量设置面试状态","批量设置面试状态"
+"broken","Mon Jul 13 17:09:15 CST 2020","Mon Jul 13 17:09:16 CST 2020","808","testcases.service_testing.PQ","test_bankcard_infomange","Testbankcardinfo","","","审核状态查询","
+                审核状态查询
+
+        "
+"broken","Mon Jul 13 17:09:28 CST 2020","Mon Jul 13 17:09:29 CST 2020","342","testcases.service_testing.PQ","test_idcard_infomange","Testidcardinfo","","","会员已有打卡记录，审核身份证成功","
+                会员已有打卡记录，审核身份证成功
+
+        "
+"broken","Mon Jul 13 17:29:17 CST 2020","Mon Jul 13 17:29:18 CST 2020","335","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","身份证审核通过状态，未审核状态的工牌信息检查","
+                身份证审核通过状态，未审核状态的工牌信息检查
+
+        "
+"passed","Mon Jul 13 17:10:21 CST 2020","Mon Jul 13 17:10:24 CST 2020","3111","testcases.service_testing.PQ","test_name_list","TestNameList","","","使用企业类型查询","使用企业类型查询"
+"passed","Mon Jul 13 17:09:31 CST 2020","Mon Jul 13 17:09:32 CST 2020","325","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-不同面试状态录入：面试状态为0","手动录入-不同面试状态录入"
+"passed","Mon Jul 13 17:28:26 CST 2020","Mon Jul 13 17:28:57 CST 2020","31542","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","使用企业查询","使用企业查询"
+"passed","Mon Jul 13 17:16:36 CST 2020","Mon Jul 13 17:17:07 CST 2020","30775","testcases.service_testing.PQ","test_settle_namelist","TestSettleNameList","","","名单未绑定订单，检查预支名单","名单未绑定订单，检查预支名单"
+"passed","Mon Jul 13 17:09:30 CST 2020","Mon Jul 13 17:09:31 CST 2020","690","testcases.service_testing.PQ","test_name_list","TestNameList","","","手动录入-带所有选填项信息","手动录入-带所有选填项信息"
+"failed","Mon Jul 13 17:08:28 CST 2020","Mon Jul 13 17:08:29 CST 2020","714","testcases.service_testing.MiniPro","test_login","TestLoin","","","输入正确的验证码和手机号码,tenant_type为1登录","
+                        输入正确的验证码和手机号码,tenant_type为1登录
+
+        "
+"passed","Mon Jul 13 17:09:35 CST 2020","Mon Jul 13 17:09:35 CST 2020","586","testcases.service_testing.PQ","test_name_list","TestNameList","","","手工录入-关闭企业","手工录入-关闭企业"
+"broken","Mon Jul 13 17:29:20 CST 2020","Mon Jul 13 17:29:20 CST 2020","153","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","身份证号码查询","
+                身份证号码查询
+
+        "
+"broken","Mon Jul 13 17:29:22 CST 2020","Mon Jul 13 17:29:22 CST 2020","236","testcases.service_testing.PQ","test_workcard_infomange","Testworkcardinfo","","","组合查询","
+                组合查询
+
+        "

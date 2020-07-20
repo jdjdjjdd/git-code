@@ -1,0 +1,25 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/VCodeManager/GetVCode HTTP/1.1" 200 40
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/api/v1/DJY_Login/MiniLogin HTTP/1.1" 200 498
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/fw/api/v1/Aliyun/WD_ALI_GetAliSTS HTTP/1.1" 200 693
+DEBUG    oss2.auth:auth.py:191 Init StsAuth: access_key_id: STS.NV5EFW7yM6zUeciivZirL2gJe, access_key_secret: ******, security_token: ******
+DEBUG    oss2.auth:auth.py:23 Init Auth v1: access_key_id: STS.NV5EFW7yM6zUeciivZirL2gJe, access_key_secret: ******
+DEBUG    oss2.api:api.py:396 Init oss bucket, endpoint: http://oss-cn-shanghai.aliyuncs.com, isCname: False, connect_timeout: None, app_name: , enabled_crc: True
+DEBUG    oss2.api:api.py:542 Put object from file, bucket: woda-app-private-test, key: zhjz/IDCard/tmp_faker_idcard_photo.jpg, file path: E:\study\python\autotest\test_data\threecard_file\faker_idcard_photo.jpg
+DEBUG    oss2.api:api.py:515 Start to put object, bucket: woda-app-private-test, key: zhjz/IDCard/tmp_faker_idcard_photo.jpg, headers: {'Content-Type': 'image/jpeg'}
+DEBUG    oss2.http:http.py:77 Init request, method: PUT, url: http://woda-app-private-test.oss-cn-shanghai.aliyuncs.com/zhjz%2FIDCard%2Ftmp_faker_idcard_photo.jpg, params: None, headers: {'Content-Type': 'image/jpeg', 'Accept-Encoding': None, 'User-Agent': 'aliyun-sdk-python/2.9.0(Windows/10/AMD64;3.7.3)'}
+DEBUG    oss2.auth:auth.py:100 Make signature: string to be signed = PUT
+
+image/jpeg
+Mon, 13 Jul 2020 09:08:30 GMT
+x-oss-security-token:CAIS5wF1q6Ft5B2yfSjIr5WADvzj2qZsgbi+Z0XYjXYPZf1g3aLhhzz2IHxOfHBtB+wbsvwynm1Q7vYclqx6T55OSBQIjDSlMtIFnzm6aq/t5uaXj9Vd+rDHdEGXDxnkprywB8zyUNLafNq0dlnAjVUd6LDmdDKkLTfHWN/z/vwBVNkMWRSiZjdrHcpfIhAYyPUXLnzML/2gQHWI6yjydBMz5FIm1zMhs/7uk5XAukXk4QekmrNPlePYOYO5asRgBpB7Xuqu0fZ+Hqi7i3IKs0EXqvsr0PQZo2qf5oHDGTJJ5A2WzBt2Wjai8WUagAF59LQq+KJVjqXcsaII3SOueGskE0W7Fw78iwE5gYTHmbNtS6nRkj+XQWIly8XpSfAdDhnscm1dfBSWPnIoLpuE+L/vrdU/SKXCd6ud9BqRK6hemT9qTZCXxbPTuo+MBVABgZ6RX0qwBF9MECv8fbhw7eXeVtnNotdChuaK13TkbQ==
+/woda-app-private-test/zhjz/IDCard/tmp_faker_idcard_photo.jpg
+DEBUG    oss2.http:http.py:40 Send request, method: PUT, url: http://woda-app-private-test.oss-cn-shanghai.aliyuncs.com/zhjz%2FIDCard%2Ftmp_faker_idcard_photo.jpg, params: {}, headers: {'Content-Type': 'image/jpeg', 'Accept-Encoding': None, 'User-Agent': 'aliyun-sdk-python/2.9.0(Windows/10/AMD64;3.7.3)', 'x-oss-security-token': 'CAIS5wF1q6Ft5B2yfSjIr5WADvzj2qZsgbi+Z0XYjXYPZf1g3aLhhzz2IHxOfHBtB+wbsvwynm1Q7vYclqx6T55OSBQIjDSlMtIFnzm6aq/t5uaXj9Vd+rDHdEGXDxnkprywB8zyUNLafNq0dlnAjVUd6LDmdDKkLTfHWN/z/vwBVNkMWRSiZjdrHcpfIhAYyPUXLnzML/2gQHWI6yjydBMz5FIm1zMhs/7uk5XAukXk4QekmrNPlePYOYO5asRgBpB7Xuqu0fZ+Hqi7i3IKs0EXqvsr0PQZo2qf5oHDGTJJ5A2WzBt2Wjai8WUagAF59LQq+KJVjqXcsaII3SOueGskE0W7Fw78iwE5gYTHmbNtS6nRkj+XQWIly8XpSfAdDhnscm1dfBSWPnIoLpuE+L/vrdU/SKXCd6ud9BqRK6hemT9qTZCXxbPTuo+MBVABgZ6RX0qwBF9MECv8fbhw7eXeVtnNotdChuaK13TkbQ==', 'date': 'Mon, 13 Jul 2020 09:08:30 GMT', 'authorization': 'OSS STS.NV5EFW7yM6zUeciivZirL2gJe:XHBGw/EFRhbgo6b4tatc8kGjfgE='}, timeout: 60
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "PUT http://woda-app-private-test.oss-cn-shanghai.aliyuncs.com/zhjz%2FIDCard%2Ftmp_faker_idcard_photo.jpg HTTP/1.1" 200 0
+DEBUG    oss2.http:http.py:102 Get response headers, req-id:5F0C24918639A73438C43BD7, status: 200, headers: {'Server': 'AliyunOSS', 'Date': 'Mon, 13 Jul 2020 09:08:33 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'x-oss-request-id': '5F0C24918639A73438C43BD7', 'ETag': '"DC73C1F0A6ABA48634D5645D2320A3EA"', 'x-oss-hash-crc64ecma': '17166331295327705310', 'Content-MD5': '3HPB8KarpIY01WRdIyCj6g==', 'x-oss-server-time': '24'}
+DEBUG    oss2.api:api.py:517 Put object done, req_id: 5F0C24918639A73438C43BD7, status_code: 200
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 127.0.0.1:8888
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:8888 "POST http://djy-web-fat3.woda.ink/fw/api/v1/Present_Audit/ZXX_UploadIDCard HTTP/1.1" 200 36

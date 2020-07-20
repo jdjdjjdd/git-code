@@ -1,0 +1,280 @@
+{
+  "uid" : "9b83fe0f42ca147a",
+  "name" : "名单和订单企业不一致",
+  "fullName" : "testcases.service_testing.PQ.test_name_list.TestNameList#test_namelist_0027",
+  "historyId" : "0b51a51447230f9ba8cb817007da6dcc",
+  "time" : {
+    "start" : 1594631385639,
+    "stop" : 1594631386601,
+    "duration" : 962
+  },
+  "description" : "名单和订单企业不一致",
+  "descriptionHtml" : "<p>名单和订单企业不一致</p>\n",
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_name_list.py:954: AssumptionFailure\n>>\tpytest.assume(res['Data'] == {\"RecordList\": []})\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               testcases\\service_testing\\PQ\\test_name_list.py:954: AssumptionFailure\nE               >>\tpytest.assume(res['Data'] == {\"RecordList\": []})\nE               AssertionError: assert False\n\nD:\\Python\\Python37\\lib\\site-packages\\six.py:695: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "order_manage",
+    "time" : {
+      "start" : 1594631383279,
+      "stop" : 1594631383279,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "random_agent",
+    "time" : {
+      "start" : 1594631385581,
+      "stop" : 1594631385639,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1594631305945,
+      "stop" : 1594631306348,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1594631385511,
+      "stop" : 1594631385516,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "borrow_randow_fuction",
+    "time" : {
+      "start" : 1594631385516,
+      "stop" : 1594631385581,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1594631370228,
+      "stop" : 1594631370228,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594631370159,
+      "stop" : 1594631370228,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "名单和订单企业不一致",
+    "status" : "failed",
+    "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_name_list.py:954: AssumptionFailure\n>>\tpytest.assume(res['Data'] == {\"RecordList\": []})\nAssertionError: assert False",
+    "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               testcases\\service_testing\\PQ\\test_name_list.py:954: AssumptionFailure\nE               >>\tpytest.assume(res['Data'] == {\"RecordList\": []})\nE               AssertionError: assert False\n\nD:\\Python\\Python37\\lib\\site-packages\\six.py:695: FailedAssumption",
+    "steps" : [ {
+      "name" : "预置条件:录入名单，创建订单，名单和订单企业不一致",
+      "time" : {
+        "start" : 1594631385639,
+        "stop" : 1594631386353,
+        "duration" : 714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step1:选择名单，点击绑定可预支订单",
+      "time" : {
+        "start" : 1594631386353,
+        "stop" : 1594631386569,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：提示请先设置来源",
+      "time" : {
+        "start" : 1594631386569,
+        "stop" : 1594631386601,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2f8d3efacd3822c4",
+      "name" : "log",
+      "source" : "2f8d3efacd3822c4.txt",
+      "type" : "text/plain",
+      "size" : 3866
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1594631386620,
+      "stop" : 1594631386620,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594631470005,
+      "stop" : 1594631470005,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "功能按钮"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "实接记录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_name_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "26496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_name_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "7d3ad894b9e17a69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593589095089,
+        "stop" : 1593589096860,
+        "duration" : 1771
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9b83fe0f42ca147a.json",
+  "parameterValues" : [ ]
+}

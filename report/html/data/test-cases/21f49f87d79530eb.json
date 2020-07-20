@@ -1,0 +1,319 @@
+{
+  "uid" : "21f49f87d79530eb",
+  "name" : "生成预支名单5",
+  "fullName" : "testcases.service_testing.PQ.test_settle_namelist.TestSettleNameList#test_settle_namelist_0005",
+  "historyId" : "58bd08c669ef4a4b92fecf8f9d4f9fa7",
+  "time" : {
+    "start" : 1594631602500,
+    "stop" : 1594631635068,
+    "duration" : 32568
+  },
+  "description" : "生成预支名单5",
+  "descriptionHtml" : "<p>生成预支名单5</p>\n",
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> TypeError(\"'NoneType' object is not subscriptable\")\n\n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_settle_namelist.py:413: AssumptionFailure\n>>\tpytest.assume(res['Data']['RecordCount'] == 1)\nAssertionError: assert False",
+  "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_settle_namelist.TestSettleNameList object at 0x000001BB799828D0>\nmember_manage = <common.business_func.mem_information_manag_func.Member_information_management_func object at 0x000001BB77E720B8>\nent = ['仁宝电子', 3, '仁宝电子科技（昆山）有限公司', 1]\nname_manage = <common.business_func.namelist.NameList object at 0x000001BB77E72EF0>\norder_manage = <common.business_func.orders.Order object at 0x000001BB77E72240>\ngroup_manage = <common.business_func.group_management.GroupManagement object at 0x000001BB77E72CF8>\nrandom_agent = [22701, '我的打工网']\nadvance_manage = <common.business_func.advance_management.AdvanceManage object at 0x000001BB77E72A90>\n\n    @allure.feature('可预支名单')\n    @allure.story('生成预支名单')\n    @allure.title('生成预支名单5')\n    @allure.severity('blocker')\n    def test_settle_namelist_0005(self, member_manage, ent, name_manage, order_manage, group_manage, random_agent,\n                                  advance_manage):\n        \"\"\"生成预支名单5\"\"\"\n        with allure.step(\"预置条件：会员三卡仅认证身份证\"):\n            # 上传身份证\n            self.applet.upload_idcard(fakeridcardpicture)\n            # 生成未认证过的身份证号码\n            for i in range(100):\n                idnum = create_IDCard()\n                res = member_manage.get_idcardlist(auditsts=2, IdCardNum=idnum)\n                if res['Data']['RecordCount'] == 0:\n                    break\n            name = create_name()\n            # 审核身份证\n            member_manage.audit_idcard(phone=self.mobile, idcardnum=idnum, rname=name)\n            # 获取工种\n            res = group_manage.get_ent_borrow_list(IsEnabled=1, RcrtType=2, EntShortName=ent[0])\n            if res['Data']['RecordCount'] != 0:\n                lst = res['Data']['RecordList']\n                entborrow_dic = lst[random.randint(0, len(lst) - 1)]\n                borrowname = entborrow_dic['EntBorrowName']\n            else:\n                borrowname = ent[0] + '周薪薪'\n                group_manage.add_or_update_ent_borrow(CoopEntName=borrowname, CoopEntId=0, EntId=ent[3], IsEnabled=1,\n                                                      RcrtType=2, Flag=1)\n            # 录入名单\n            name_manage.add_name_pq(entbrorrowname=borrowname, FromSpName=random_agent[1], mobile=self.mobile,\n                                    idnum=idnum, name=name)\n            # 创建订单\n            order_manage.create_order_pq(entbrorrowname=borrowname, ReceiverType=2, PriceUnit=1)\n            # 审核订单\n            order_manage.Judge_Order(auditsts=2, orderid=order_manage.orderid)\n            # 分配订单\n            order_manage.publishOrderToSupplier(agentname=random_agent[1], OrderId=order_manage.orderid)\n    \n            # 上传工牌\n            self.applet.upload_workcard(workCardFile=workCardpicture, entname=ent[0])\n    \n        with allure.step(\"step1：名单绑定订单，检查预支名单列表\"):\n            # 名单绑定订单\n            name_manage.bind_order(orderid=order_manage.orderid, namelist=[name_manage.newnameid_pq])\n        with allure.step(\"预期结果：生成一条预支名单记录\"):\n            # 等待30s\n            time.sleep(30)\n            # 查询预支名单\n            res = advance_manage.zxx_getNameList(IdCardNum=idnum)\n            pytest.assume(res['Data']['RecordCount'] == 1)\n>           pytest.assume(res['Data']['RecordList'][0]['Mobile'] == self.mobile)\nE           pytest_assume.plugin.FailedAssumption: \nE           Original Failure:\nE           \nE           >> TypeError(\"'NoneType' object is not subscriptable\")\nE           \nE           1 Failed Assumptions:\nE           \nE           testcases\\service_testing\\PQ\\test_settle_namelist.py:413: AssumptionFailure\nE           >>\tpytest.assume(res['Data']['RecordCount'] == 1)\nE           AssertionError: assert False\n\ntestcases\\service_testing\\PQ\\test_settle_namelist.py:414: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594631470010,
+      "stop" : 1594631470071,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ent",
+    "time" : {
+      "start" : 1594631602293,
+      "stop" : 1594631602397,
+      "duration" : 104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "advance_manage",
+    "time" : {
+      "start" : 1594631470071,
+      "stop" : 1594631470071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "name_manage",
+    "time" : {
+      "start" : 1594631470071,
+      "stop" : 1594631470071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1594631601985,
+      "stop" : 1594631602293,
+      "duration" : 308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "weblogin",
+    "time" : {
+      "start" : 1594631305945,
+      "stop" : 1594631306348,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "random_agent",
+    "time" : {
+      "start" : 1594631602397,
+      "stop" : 1594631602499,
+      "duration" : 102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "group_manage",
+    "time" : {
+      "start" : 1594631470071,
+      "stop" : 1594631470071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "order_manage",
+    "time" : {
+      "start" : 1594631470071,
+      "stop" : 1594631470071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "member_manage",
+    "time" : {
+      "start" : 1594631470071,
+      "stop" : 1594631470071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "生成预支名单5",
+    "status" : "failed",
+    "statusMessage" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> TypeError(\"'NoneType' object is not subscriptable\")\n\n1 Failed Assumptions:\n\ntestcases\\service_testing\\PQ\\test_settle_namelist.py:413: AssumptionFailure\n>>\tpytest.assume(res['Data']['RecordCount'] == 1)\nAssertionError: assert False",
+    "statusTrace" : "self = <autotest.testcases.service_testing.PQ.test_settle_namelist.TestSettleNameList object at 0x000001BB799828D0>\nmember_manage = <common.business_func.mem_information_manag_func.Member_information_management_func object at 0x000001BB77E720B8>\nent = ['仁宝电子', 3, '仁宝电子科技（昆山）有限公司', 1]\nname_manage = <common.business_func.namelist.NameList object at 0x000001BB77E72EF0>\norder_manage = <common.business_func.orders.Order object at 0x000001BB77E72240>\ngroup_manage = <common.business_func.group_management.GroupManagement object at 0x000001BB77E72CF8>\nrandom_agent = [22701, '我的打工网']\nadvance_manage = <common.business_func.advance_management.AdvanceManage object at 0x000001BB77E72A90>\n\n    @allure.feature('可预支名单')\n    @allure.story('生成预支名单')\n    @allure.title('生成预支名单5')\n    @allure.severity('blocker')\n    def test_settle_namelist_0005(self, member_manage, ent, name_manage, order_manage, group_manage, random_agent,\n                                  advance_manage):\n        \"\"\"生成预支名单5\"\"\"\n        with allure.step(\"预置条件：会员三卡仅认证身份证\"):\n            # 上传身份证\n            self.applet.upload_idcard(fakeridcardpicture)\n            # 生成未认证过的身份证号码\n            for i in range(100):\n                idnum = create_IDCard()\n                res = member_manage.get_idcardlist(auditsts=2, IdCardNum=idnum)\n                if res['Data']['RecordCount'] == 0:\n                    break\n            name = create_name()\n            # 审核身份证\n            member_manage.audit_idcard(phone=self.mobile, idcardnum=idnum, rname=name)\n            # 获取工种\n            res = group_manage.get_ent_borrow_list(IsEnabled=1, RcrtType=2, EntShortName=ent[0])\n            if res['Data']['RecordCount'] != 0:\n                lst = res['Data']['RecordList']\n                entborrow_dic = lst[random.randint(0, len(lst) - 1)]\n                borrowname = entborrow_dic['EntBorrowName']\n            else:\n                borrowname = ent[0] + '周薪薪'\n                group_manage.add_or_update_ent_borrow(CoopEntName=borrowname, CoopEntId=0, EntId=ent[3], IsEnabled=1,\n                                                      RcrtType=2, Flag=1)\n            # 录入名单\n            name_manage.add_name_pq(entbrorrowname=borrowname, FromSpName=random_agent[1], mobile=self.mobile,\n                                    idnum=idnum, name=name)\n            # 创建订单\n            order_manage.create_order_pq(entbrorrowname=borrowname, ReceiverType=2, PriceUnit=1)\n            # 审核订单\n            order_manage.Judge_Order(auditsts=2, orderid=order_manage.orderid)\n            # 分配订单\n            order_manage.publishOrderToSupplier(agentname=random_agent[1], OrderId=order_manage.orderid)\n    \n            # 上传工牌\n            self.applet.upload_workcard(workCardFile=workCardpicture, entname=ent[0])\n    \n        with allure.step(\"step1：名单绑定订单，检查预支名单列表\"):\n            # 名单绑定订单\n            name_manage.bind_order(orderid=order_manage.orderid, namelist=[name_manage.newnameid_pq])\n        with allure.step(\"预期结果：生成一条预支名单记录\"):\n            # 等待30s\n            time.sleep(30)\n            # 查询预支名单\n            res = advance_manage.zxx_getNameList(IdCardNum=idnum)\n            pytest.assume(res['Data']['RecordCount'] == 1)\n>           pytest.assume(res['Data']['RecordList'][0]['Mobile'] == self.mobile)\nE           pytest_assume.plugin.FailedAssumption: \nE           Original Failure:\nE           \nE           >> TypeError(\"'NoneType' object is not subscriptable\")\nE           \nE           1 Failed Assumptions:\nE           \nE           testcases\\service_testing\\PQ\\test_settle_namelist.py:413: AssumptionFailure\nE           >>\tpytest.assume(res['Data']['RecordCount'] == 1)\nE           AssertionError: assert False\n\ntestcases\\service_testing\\PQ\\test_settle_namelist.py:414: FailedAssumption",
+    "steps" : [ {
+      "name" : "预置条件：会员三卡仅认证身份证",
+      "time" : {
+        "start" : 1594631602500,
+        "stop" : 1594631604798,
+        "duration" : 2298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step1：名单绑定订单，检查预支名单列表",
+      "time" : {
+        "start" : 1594631604798,
+        "stop" : 1594631604875,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "预期结果：生成一条预支名单记录",
+      "time" : {
+        "start" : 1594631604876,
+        "stop" : 1594631635068,
+        "duration" : 30192
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not subscriptable\n",
+      "statusTrace" : "  File \"E:\\study\\python\\autotest\\testcases\\service_testing\\PQ\\test_settle_namelist.py\", line 414, in test_settle_namelist_0005\n    pytest.assume(res['Data']['RecordList'][0]['Mobile'] == self.mobile)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4d93deacb8e6ca03",
+      "name" : "log",
+      "source" : "4d93deacb8e6ca03.txt",
+      "type" : "text/plain",
+      "size" : 14242
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594632557036,
+      "stop" : 1594632557036,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1594631635119,
+      "stop" : 1594631635119,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "可预支名单"
+  }, {
+    "name" : "story",
+    "value" : "生成预支名单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.service_testing.PQ"
+  }, {
+    "name" : "suite",
+    "value" : "test_settle_namelist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSettleNameList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9JNMRHP"
+  }, {
+    "name" : "thread",
+    "value" : "26496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.service_testing.PQ.test_settle_namelist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21f49f87d79530eb.json",
+  "parameterValues" : [ ]
+}

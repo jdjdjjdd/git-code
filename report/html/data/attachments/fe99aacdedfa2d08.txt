@@ -1,0 +1,8 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): dajiaying-web.sit.woda.ink:80
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://dajiaying-web.sit.woda.ink:80 "POST /api/v1/DJY_Base_Manager/GetEntBorrowByUserType HTTP/1.1" 200 None
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): dajiaying-web.sit.woda.ink:80
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://dajiaying-web.sit.woda.ink:80 "POST /api/v1/DJY_Name_Manager/GetVAgentListAPI HTTP/1.1" 200 None
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): dajiaying-web.sit.woda.ink:80
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://dajiaying-web.sit.woda.ink:80 "POST /api/v1/DJY_Name_Manager/AddNameForOpenAPI HTTP/1.1" 200 86
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): dajiaying-web.sit.woda.ink:80
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://dajiaying-web.sit.woda.ink:80 "POST /api/v1/DJY_Name_Manager/GetNameList HTTP/1.1" 200 859
